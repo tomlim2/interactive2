@@ -5,6 +5,7 @@
 <head>
   <title>Tom Lim</title>
   <meta charset="utf-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <style>
     body {
@@ -52,6 +53,26 @@
     }
 
   </style>
+
+  <script>
+  $(document).ready(function(){
+
+
+    $("a").hover(function(){
+      $("#hovers")[0].pause();
+      $("#hovers")[0].currentTime=0;
+      $("#hovers")[0].play();
+      //hover in
+    },
+    function(){
+      //hover out
+    }
+  );
+  });
+
+  </script>
+
+
 </head>
 
 <body>
@@ -69,7 +90,9 @@
     </div>
     </div>
 
-
+    <audio id="hovers">
+      <source src="assets/00002a00.wav" type="audio/wav">
+    </audio>
 
   </div>
 </body>
