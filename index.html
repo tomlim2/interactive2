@@ -25,17 +25,22 @@
     h1 {
       font-size: 4.8em;
       text-align: center;
-
     }
     h3 {
       text-align: center;
       text-transform: uppercase;
     }
+    .h1r{
+      color: red;
+    }
+    .h1b{
+      color: blue;
+    }
+
 
     #bio {
       line-height: 1.5em;
     }
-
     a{
         color: white;
         text-decoration: none;
@@ -67,8 +72,13 @@
     function(){
       //hover out
     }
-  );
-
+    );
+    $(".ex1").hover(function(){
+      $("h1").toggleClass('h1r');
+    });
+    $(".pk1").hover(function(){
+      $("h1").toggleClass('h1b');
+    });
 
 
   });
@@ -89,11 +99,15 @@
 
     <div id="exercises">
       <h3>exercises</h3>
-      <a href="exercise1/index.html">Desktop Portrait</a>
+      <div class="ex1">
+        <a href="exercise1/index.html">Desktop Portrait</a>
+      </div>
     </div>
     <div id="PechaKucha">
       <h3>other</h3>
-      <a href="exercise1/index.html">Pecha Kucha: Rhizome</a>
+      <div class="pk1">
+        <a href="exercise1/index.html">Pecha Kucha: Rhizome</a>
+      </div>
     </div>
   </div>
 
