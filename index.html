@@ -37,7 +37,16 @@
       color: blue;
     }
 
-
+    .footers{
+      text-align: center;
+      font-size: 0.8em;
+      position: absolute;
+      width: 600px;
+      left: 50%;
+      margin-left: -300px;
+      bottom: 3%;
+      color: gray;
+    }
     #bio {
       line-height: 1.5em;
     }
@@ -73,10 +82,10 @@
       //hover out
     }
     );
-    $(".ex1").hover(function(){
+    $("#ex1").hover(function(){
       $("h1").toggleClass('h1r');
     });
-    $(".pk1").hover(function(){
+    $("#pk1").hover(function(){
       $("h1").toggleClass('h1b');
     });
 
@@ -93,27 +102,23 @@
 
     <h1>TOMLIM</h1>
 
-    <p id="bio">
-      <!-- My name is Tom Lim. I am from Korea. Name, Tom comes from my most favorite animation "Tom and Jerry". -->
-    </p>
-
     <div id="exercises">
       <h3>exercises</h3>
-      <div class="ex1">
-        <a href="exercise1/index.html">Desktop Portrait</a>
-      </div>
+        <a href="exercise1/index.html"><span id="ex1">Desktop Portrait</span></a>
     </div>
     <div id="PechaKucha">
       <h3>other</h3>
-      <div class="pk1">
-        <a href="exercise1/index.html">Pecha Kucha: Rhizome</a>
-      </div>
+        <a href="exercise1/index.html"><span id="pk1">Pecha Kucha: Rhizome</span></a>
     </div>
   </div>
 
     <audio id="hovers">
       <source src="assets/00002a00.wav" type="audio/wav">
     </audio>
+
+<div class="footers">
+  TOMLIM (C) TOM LIM 2017
+</div>
 
 </body>
 </html>
