@@ -21,24 +21,56 @@
       width: 800px;
       text-align: center;
     }
-
-    h1 {
-      font-size: 4.8em;
-      text-align: center;
-      color: black;
+    .e00{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1200px;
+      height: 200px;
+      margin-left: -600px;
+      margin-top: -40px;
     }
+    .e0{
+      text-align: center;
+    }
+
+    .e1{
+      font-size: 4.8em;
+      color: gray;
+    }
+    .e2{
+      font-size: 4.8em;
+      display: none;
+    }
+    .e3{
+      font-size: 6em;
+      display: none;
+    }
+    .e4{
+      font-size: 6em;
+      display: none;
+    }
+
+
+
     h3 {
       text-align: center;
       text-transform: uppercase;
     }
+    .h10{
+      display: none;
+    }
     .h1r{
       color: red;
+      display: block;
     }
     .h1b{
       color: orange;
+      display: block;
     }
     .h1g{
       color: yellow;
+      display: block;
     }
     .h1y1{
       color: green;
@@ -46,20 +78,26 @@
     .h1y2{
       color: blue;
     }
-
-    .footers{
+    #displayarea{
+      position: relative;
+      height: 150px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    #clickarea{
+      position: relative;
+    }
+    #footers{
       text-align: center;
       font-size: 0.8em;
       position: absolute;
       width: 600px;
+      bottom: 3%;
       left: 50%;
       margin-left: -300px;
-      bottom: 3%;
       color: gray;
     }
-    #bio {
-      line-height: 1.5em;
-    }
+
     a{
         color: white;
         text-decoration: none;
@@ -67,11 +105,9 @@
     a:hover{
       color: yellow;
     }
-    #exercises{
-    }
-    #projects{
-    }
-    #PechaKucha{
+
+    #grayc{
+      color: gray;
     }
 
 
@@ -93,16 +129,19 @@
     }
     );
     $("#ex1").hover(function(){
-      $("h1").toggleClass('h1r');
+      $(".e2").toggleClass('h1r');
+      $(".e1").toggleClass('h10');
     });
     $("#ex2").hover(function(){
-      $("h1").toggleClass('h1b');
+      $(".e3").toggleClass('h1b');
+      $(".e1").toggleClass('h10');
     });
     $("#ex3").hover(function(){
       $("h1").toggleClass('h1g');
     });
     $("#ex4").hover(function(){
-      $("h1").toggleClass('h1y1');
+      $(".e4").toggleClass('h1g');
+      $(".e1").toggleClass('h10');
     });
     $("#ex5").hover(function(){
       $("h1").toggleClass('h1y2');
@@ -119,21 +158,30 @@
 
 <body>
   <div class="main">
+    <span id="grayc">TOMLIM's</span>
+    <div id="displayarea">
+      <span class="e1 e0">inter-<br>active2</span>
+      <span class="e2 e0">desktop portrait</span>
+      <span class="e3 e0 e00">rhizome</span>
+      <span class="e4 e0 e00">trumpism</span>
+    </div>
 
-    <h1>TOMLIM</h1>
-
+    <div id="clickarea">
+      <br>-<br><br>
       <!-- <h3>exercises</h3> -->
-        <a href="exercise1/index.html"><span id="ex1">Desktop Portrait</span></a>
+        <a href="exercise1/index.html"><span id="ex1">exercise</span></a>
 
       <!-- <h3>other</h3> -->
-        <a href="pechakucha/index.html"><span id="ex2">Rhizome</span></a>
+        <a href="pechakucha/index.html"><span id="ex2">presentation</span></a>
 
-        <a href="https://twitter.com/publicbookstl"><span id="ex4">Trumpism</span></a>
+        <a href="https://twitter.com/publicbookstl"><span id="ex4">project1</span></a>
 
         <br><br>-<br><br>
 
         pj1 <a href="week2/index.html"><span id="ex3">week2</span></a>
             <a href="week3/index.html"><span id="ex5">week3</span></a>
+    </div>
+
 
 
 
@@ -144,7 +192,7 @@
       <source src="assets/00002a00.wav" type="audio/wav">
     </audio>
 
-<div class="footers">
+<div id="footers">
   TOMLIM (C) TOM LIM 2017
 </div>
 
