@@ -1,41 +1,225 @@
+
+<!DOCTYPE html>
 <html>
 
-<script type="text/javascript">
-
-function detectBrowser()
-{
-	/*
-    var fallback = true;
-    
-    if (navigator && navigator.vendor) {
-        if (navigator.vendor.search("Apple") != -1) {
-            var vers = parseInt(navigator.appVersion.replace(/^.*?AppleWebKit\/(\d+).*?$/,'$1'),0);
-                if (vers >= 532) {
-                    fallback = false;
-                }
-        }
+<head>
+  <title>TOMLIM</title>
+  <meta charset="utf-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      font-family: 'Press Start 2P', cursive;
+      color: white;
     }
-    
-    var slashIndex = window.location.href.lastIndexOf("/");
-    var cropped = window.location.href.slice(0,slashIndex+1);
-    
-    if (fallback) {
-        window.location.replace( cropped + "assets/fallback/index.html" );
+    .mimg0{
+      width: 1024px;
+      height: 768px;
+      position: relative;
+      left: 50%;
+      margin-left: -512px;
+      margin-top: 10px;
     }
-    else {
-        window.location.replace( cropped + "assets/player/KeynoteDHTMLPlayer.html" );
+    .mimg1 {
+      background-image: url(assets/arz001.jpeg);
+      background-size: cover;
     }
-    */
-    var slashIndex = window.location.href.lastIndexOf("/");
-    var cropped = window.location.href.slice(0,slashIndex+1);
-    
-    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+    .mimg2 {
+      background-image: url(assets/arz002.jpeg);
+      background-size: cover;
+    }
+    .mimg3 {
+      background-image: url(assets/arz003.jpeg);
+      background-size: cover;
+    }
+    .mimg4 {
+      background-image: url(assets/arz004.jpeg);
+      background-size: cover;
+    }
+    .mimg5 {
+      background-image: url(assets/arz005.jpeg);
+      background-size: cover;
+    }
+    .mimg6 {
+      background-image: url(assets/arz006.jpeg);
+      background-size: cover;
+    }
+    .mimg7 {
+      background-image: url(assets/arz007.jpeg);
+      background-size: cover;
+    }
+    .mimg8 {
+      background-image: url(assets/arz008.jpeg);
+      background-size: cover;
+    }
+    .mimg9 {
+      background-image: url(assets/arz009.jpeg);
+      background-size: cover;
+    }
+    .mimg10 {
+      background-image: url(assets/arz010.jpeg);
+      background-size: cover;
+    }
+    .mimg11 {
+      background-image: url(assets/arz011.jpeg);
+      background-size: cover;
+    }
+    .mimg12 {
+      background-image: url(assets/arz012.jpeg);
+      background-size: cover;
+    }
+    .mimg13 {
+      background-image: url(assets/arz013.jpeg);
+      background-size: cover;
+    }
+    .mimg14 {
+      background-image: url(assets/arz014.jpeg);
+      background-size: cover;
+    }
+    .mimg15 {
+      background-image: url(assets/arz015.jpeg);
+      background-size: cover;
+    }
+    .mimg16 {
+      background-image: url(assets/arz016.jpeg);
+      background-size: cover;
+    }
+    .mimg17 {
+      background-image: url(assets/arz017.jpeg);
+      background-size: cover;
+    }
+    .mimg18 {
+      background-image: url(assets/arz018.jpeg);
+      background-size: cover;
+    }
+    .mimg19 {
+      background-image: url(assets/arz019.jpeg);
+      background-size: cover;
+    }
+    .mimg20 {
+      background-image: url(assets/arz020.jpeg);
+      background-size: cover;
+    }
 
-}
+    h1 {
+      font-size: 4.8em;
+      text-align: center;
+      color: black;
+    }
+    h3 {
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .h1r{
+      color: red;
+    }
+    .h1b{
+      color: blue;
+    }
+    .homebtn{
+      text-align: right;
+      position: relative;
+      margin-top: 40px;
+    }
+    .footers{
+      text-align: center;
+      font-size: 0.8em;
+      position: relative;
+      width: 600px;
+      height: 40px;
+      top: 30px;
+      left: 50%;
+      margin-left: -300px;
+      color: gray;
+    }
+    #bio {
+      line-height: 1.5em;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+      color: yellow;
+    }
+    #exercises{
+    }
+    #projects{
+    }
+    #PechaKucha{
+    }
 
-</script>
 
-<body bgcolor="black" onload="detectBrowser()">
+
+  </style>
+
+  <script>
+  $(document).ready(function(){
+
+
+    $("a").hover(function(){
+      $("#hovers")[0].pause();
+      $("#hovers")[0].currentTime=0;
+      $("#hovers")[0].play();
+      //hover in
+    },
+    function(){
+      //hover out
+    }
+    );
+    $("#ex1").hover(function(){
+      $("h1").toggleClass('h1r');
+    });
+    $("#pk1").hover(function(){
+      $("h1").toggleClass('h1b');
+    });
+
+
+  });
+
+  </script>
+
+
+</head>
+
+<body>
+  Rhizome...
+  <br>
+  <br>
+
+  <div class="mimg0 mimg1"></div>
+  <div class="mimg0 mimg2"></div>
+  <div class="mimg0 mimg3"></div>
+  <div class="mimg0 mimg4"></div>
+  <div class="mimg0 mimg5"></div>
+  <div class="mimg0 mimg6"></div>
+  <div class="mimg0 mimg7"></div>
+  <div class="mimg0 mimg8"></div>
+  <div class="mimg0 mimg9"></div>
+  <div class="mimg0 mimg10"></div>
+  <div class="mimg0 mimg11"></div>
+  <div class="mimg0 mimg12"></div>
+  <div class="mimg0 mimg13"></div>
+  <div class="mimg0 mimg14"></div>
+  <div class="mimg0 mimg15"></div>
+  <div class="mimg0 mimg16"></div>
+  <div class="mimg0 mimg17"></div>
+  <div class="mimg0 mimg18"></div>
+  <div class="mimg0 mimg19"></div>
+  <div class="mimg0 mimg20"></div>
+
+  <div class="homebtn">
+  <a href="../index.html">...go back</a>
+  </div>
+
+    <audio id="hovers">
+      <source src="assets/00002a00.wav" type="audio/wav">
+    </audio>
+
+<div class="footers">
+  TOMLIM (C) TOM LIM 2017
+</div>
+
 </body>
-
 </html>
