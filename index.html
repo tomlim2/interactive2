@@ -7,42 +7,15 @@
   <meta charset="utf-8" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/ia2main.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="js/myscript.js"></script>
   <style>
-    body {
-      background-color: black;
-      font-family: 'Press Start 2P', cursive;
-      color: white;
-    }
-    .main {
-      position: absolute;
-      top: 190px;
-      left: 50%;
-      margin-left: -400px;
-      width: 800px;
-      text-align: center;
-    }
-
-    .e1{
-      color: white;
-    }
-    .e2{
-      display: none;
-    }
-    .e3{
-      display: none;
-    }
-    .e4{
-      display: none;
-    }
-    .e5{
-      display: none;
-    }
-    .e0{
+    .basetl1{
       font-size: 4.8em;
       text-transform: uppercase;
       text-align: center;
     }
-    .e00{
+    .onelinetl1{
       position: absolute;
       top: 50%;
       left: 50%;
@@ -53,32 +26,47 @@
       font-size: 6em;
     }
 
-
-    h3 {
-      text-align: center;
-      text-transform: uppercase;
-    }
-    .h10{
+    .nodp1{
       display: none;
     }
-    .h1r{
+    .nodp2{
+      display: none;
+    }
+    .nodp3{
+      display: none;
+    }
+    .nodp4{
+      display: none;
+    }
+    .nodp5{
+      display: none;
+    }
+    .nodp6{
+      display: none;
+    }
+
+    .tlc1{
+      color: white;
+    }
+    .tlc2{
       color: #f55f5e;
       display: block;
     }
-    .h1b{
+    .tlc3{
       color: #fcb589;
       display: block;
     }
-    .h1g{
+    .tlc6{
       color: #f8f499;
       display: block;
     }
-    .h1y1{
+    .tlc4{
       color: white;
       display: block;
     }
-    .h1y2{
-      color: blue;
+    .tlc5{
+      color: lightblue;
+      display: block;
     }
 
     #displayarea{
@@ -90,72 +78,40 @@
     #clickarea{
       position: relative;
     }
-    #footers{
-      text-align: center;
-      font-size: 0.8em;
-      position: absolute;
-      width: 600px;
-      bottom: 3%;
-      left: 50%;
-      margin-left: -300px;
-      color: gray;
-    }
-
-    a{
-        color: white;
-        text-decoration: none;
-    }
-    a:hover{
-      color: yellow;
-    }
-
     #grayc{
       color: #3dc4da;
       font-size: 1.8em;
     }
-
-
 
   </style>
 
   <script>
   $(document).ready(function(){
 
-
-    $("a").hover(function(){
-      $("#hovers")[0].pause();
-      $("#hovers")[0].currentTime=0;
-      $("#hovers")[0].play();
-      //hover in
-    },
-    function(){
-      //hover out
-    }
-    );
     $("#ex1").hover(function(){
-      $(".e2").toggleClass('h1r');
-      $(".e1").toggleClass('h10');
+      $(".nodp2").toggleClass('tlc2');
+      $(".tlc1").toggleClass('nodp1');
     });
-    $("#ex2").hover(function(){
-      $(".e3").toggleClass('h1b');
-      $(".e1").toggleClass('h10');
+    $("#pre1").hover(function(){
+      $(".nodp3").toggleClass('tlc3');
+      $(".tlc1").toggleClass('nodp1');
     });
-    $("#ex4").hover(function(){
-      $(".e4").toggleClass('h1g');
-      $(".e1").toggleClass('h10');
+    $("#pjtl1").hover(function(){
+      $(".nodp4").toggleClass('tlc6');
+      $(".tlc1").toggleClass('nodp1');
     });
-
-    
-    $("#ex3").hover(function(){
-      $(".e5").toggleClass('h1y1');
-      $(".e1").toggleClass('h10');
+    $("#wk2").hover(function(){
+      $(".nodp5").toggleClass('tlc6');
+      $(".tlc1").toggleClass('nodp1');
     });
-    $("#ex5").hover(function(){
-      $(".e5").toggleClass('h1y1');
-      $(".e1").toggleClass('h10');
+    $("#wk3").hover(function(){
+      $(".nodp5").toggleClass('tlc6');
+      $(".tlc1").toggleClass('nodp1');
     });
-
-
+    $("#wk4").hover(function(){
+      $(".nodp6").toggleClass('tlc5');
+      $(".tlc1").toggleClass('nodp1');
+    });
 
   });
 
@@ -167,11 +123,12 @@
 <body>
   <div class="main">
     <div id="displayarea">
-      <span class="e1 e0 e00">tomlim</span>
-      <span class="e2 e0">desktop portrait</span>
-      <span class="e3 e0 e00">rhizome</span>
-      <span class="e4 e0">Republish a Text</span>
-      <span class="e5 e0 e00">process</span>
+      <span class="tlc1 basetl1 onelinetl1">tomlim</span>
+      <span class="nodp2 basetl1">desktop portrait</span>
+      <span class="nodp3 basetl1 onelinetl1">rhizome</span>
+      <span class="nodp4 basetl1">Republish a Text</span>
+      <span class="nodp5 basetl1 onelinetl1">process</span>
+      <span class="nodp6 basetl1 onelinetl1">process</span>
     </div>
 
     <div id="clickarea">
@@ -180,20 +137,20 @@
         <a href="exercise1/index.html"><span id="ex1">exercise</span></a>
 
       <!-- <h3>other</h3> -->
-        <a href="pechakucha/index.html"><span id="ex2">presentation</span></a>
+        <a href="pechakucha/index.html"><span id="pre1">presentation</span></a>
 
-        <a href="https://drive.google.com/drive/u/0/folders/0B-eOROlm7ENPeE1fMmotQm5RcTA"><span id="ex4">project1</span></a>
+        <a href="https://drive.google.com/drive/u/0/folders/0B-eOROlm7ENPeE1fMmotQm5RcTA"><span id="pjtl1">project1</span></a>
 
         <br><br>
 
-        pj1 <a href="week2/index.html"><span id="ex3">week2</span></a>
-            <a href="week3/index.html"><span id="ex5">week3</span></a>
+        pj1 | <a href="week2/index.html"><span id="wk2">week2</span></a>
+            <a href="week3/index.html"><span id="wk3">week3</span></a>
+
+        <br><br>
+
+        pj2 | <a href="week4/index.html"><span id="wk4">week4</span></a>
     </div>
-
-
-
-
-    </div>
+  </div>
 
 
     <audio id="hovers">

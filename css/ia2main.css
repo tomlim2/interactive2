@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+
+.main {
+  position: absolute;
+  top: 190px;
+  left: 50%;
+  margin-left: -400px;
+  width: 800px;
+  text-align: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
+}
+
+/*brunches*/
+/*pics*/
+.box1{
+  position: relative;
+  top: 10px;
+  left: 50%;
+  margin-left: -512px;
+  width: 1024px;
+  height: 640px;
+}
+.box2{
+  height: 768px;
+  margin-left: -512px;
+  margin-top: 10px;
+}
+.box3{
+  width: 800px;
+  margin-left: -400px;
+  margin-top: 10px;
+}
+/*interface*/
+.homebtn{
+  text-align: right;
+  position: relative;
+  margin-top: 40px;
+}
+.footers{
+  text-align: center;
+  font-size: 0.8em;
+  position: relative;
+  width: 600px;
+  height: 40px;
+  top: 30px;
+  left: 50%;
+  margin-left: -300px;
+  color: gray;
+}
+#footers{
+  text-align: center;
+  font-size: 0.8em;
+  position: absolute;
+  width: 600px;
+  bottom: 3%;
+  left: 50%;
+  margin-left: -300px;
+  color: gray;
+}
