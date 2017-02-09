@@ -1,0 +1,176 @@
+.basetl1{
+  font-size: 4.8em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.onelinetl1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1200px;
+  height: 200px;
+  margin-left: -600px;
+  margin-top: -40px;
+  font-size: 6em;
+}
+
+.nodp1{
+  display: none;
+}
+.nodp2{
+  display: none;
+}
+.nodp3{
+  display: none;
+}
+.nodp4{
+  display: none;
+}
+.nodp5{
+  display: none;
+}
+.nodp6{
+  display: none;
+}
+
+.tlc1{
+  color: white;
+}
+.tlc2{
+  color: #f55f5e;
+  display: block;
+}
+.tlc3{
+  color: #fcb589;
+  display: block;
+}
+.tlc6{
+  color: #f8f499;
+  display: block;
+}
+.tlc4{
+  color: white;
+  display: block;
+}
+.tlc5{
+  color: lightblue;
+  display: block;
+}
+
+#displayarea{
+  position: relative;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#clickarea{
+  position: relative;
+}
+#grayc{
+  color: #3dc4da;
+  font-size: 1.8em;
+}
+
+
+/*floating pj*/
+.floatbros{
+}
+.fbsps{
+  position: absolute;
+  font-size: 0.8em;
+  color: gray;
+}
+.fbs1{
+  top: 51%;
+  left: 28%;
+}
+.fbs2{
+  top: 26%;
+  right: 66%;
+}
+.fbs3{
+  top: 54%;
+  right: 25%;
+}
+.fbs4{
+  top: 18%;
+  right: 58%;
+}
+.fbs5{
+  top: 24%;
+  left: 62%;
+}
+
+.fbsmv1{
+  animation: fbsprss1 6s infinite linear;
+  animation-delay: 1s;
+}
+.fbsmv2{
+  animation: fbsprss1 2s infinite linear;
+  animation-delay: 2s;
+}
+.fbsmv3{
+  animation: fbsprss1 2s infinite linear;
+  animation-delay: 3s;
+}
+.fbsmv4{
+  animation: fbsprss1 4s infinite linear;
+  animation-delay: 4s;
+}
+.fbsmv5{
+  animation: fbsprss1 6s infinite linear;
+  animation-delay: 5s;
+}
+
+@keyframes fbsprss1 {
+  0% {
+    transform: rotate(3deg);
+  }
+  3%{
+    transform: rotate(-3deg);
+  }
+  6%{
+    transform: rotate(1deg);
+  }
+  9%{
+    transform: rotate(-1deg);
+  }
+  12%{
+    transform: rotate(0deg);
+  }
+
+  34%{
+    transform: rotate(0deg);
+  }
+  35%{
+    transform: rotate(3deg);
+  }
+  38%{
+    transform: rotate(-3deg);
+  }
+  41%{
+    transform: rotate(1deg);
+  }
+  44%{
+    transform: rotate(-1deg);
+  }
+  45%{
+    transform: rotate(0deg);
+  }
+  100% {
+  }
+}
+
+/*
+.fbsppmv1{
+  animation: fbspppss1 forwards 1s;
+}
+@keyframes fbspppss1 {
+  0% {
+    top: 450px;
+    left: -10px;
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}*/
