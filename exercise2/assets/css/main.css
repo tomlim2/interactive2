@@ -310,17 +310,20 @@
 	position: absolute;
 }
 .heartmv{
-	animation: heartps 10s infinite;
+	animation: heartps 60s infinite;
 }
 @keyframes heartps {
 	0%{
 		transform: rotate(0deg);
 	}
 	20%{
-		transform: rotateY(20deg);
+		transform: rotateY(-60deg);
+	}
+	0%{
+		transform: rotate(0deg);
 	}
 	80%{
-		transform: rotateY(-20deg);
+		transform: rotateY(60deg);
 	}
 	100%{
 		transform: rotateY(0deg);
