@@ -1,3 +1,5 @@
+/* triangle generator: http://apps.eky.hk/css-triangle-generator/ */
+
 .basetl1{
   font-size: 4.8em;
   text-transform: uppercase;
@@ -32,30 +34,104 @@
 .nodp6{
   display: none;
 }
+.nodp7{
+  display: none;
+}
 
 .tlc1{
   color: white;
+  animation: tlc2pss 1s forwards;
+}
+@keyframes tlc1pss {
+  0%{
+    transform: rotateX(90deg);
+    }
+  100%{
+
+    }
 }
 .tlc2{
   color: #f55f5e;
   display: block;
+  animation: tlc2pss 1s forwards;
+}
+@keyframes tlc2pss {
+  0%{
+    transform: rotateY(1200deg);
+    opacity: 0;
+    }
+  10%{
+    opacity: 1;
+  }
+  100%{
+    transform: rotateY(0deg);
+    }
 }
 .tlc3{
   color: #fcb589;
   display: block;
+  animation: tlc2pss 1s forwards;
 }
-.tlc6{
-  color: #f8f499;
-  display: block;
+@keyframes tlc3pss {
+  0%{
+    transform: rotateZ(-720deg);
+    font-size: 0pt;
+    }
+  100%{
+    transform: rotateZ(0deg);
+    }
 }
 .tlc4{
   color: white;
   display: block;
 }
-.tlc5{
-  color: lightblue;
+.tlc50{
+  color: #67c6ca;
   display: block;
+  animation: tlc60pss 1s forwards;
 }
+.tlc60{
+  color: #ffeeb8;
+  display: block;
+  animation: tlc60pss 1s forwards;
+}
+@keyframes tlc60pss {
+  0%{
+    transform: rotateY(1200deg);
+    opacity: 0;
+    }
+  10%{
+    opacity: 1;
+  }
+  100%{
+    transform: rotateY(0deg);
+    }
+}
+.tlc6{
+  color: #f7f21d;
+  display: block;
+  animation: tlc2pss 1s forwards;
+}
+.tlc6mv{
+  animation: tlc6pss 1.2s infinite;
+}
+@keyframes tlc6pss {
+  0%{
+    background-color: #88231b;
+    }
+  50%{
+    background-color: black;
+  }
+  100%{
+    background-color: #88231b;
+    }
+}
+.tlc7{
+  color: #f78fb0;
+  display: block;
+  animation: tlc2pss 1s forwards;
+}
+
 
 #displayarea{
   position: relative;
@@ -78,11 +154,11 @@
 .fbsps{
   position: absolute;
   font-size: 0.8em;
-  color: gray;
+  color: #c9ccc1;
 }
 .fbs1{
   top: 51%;
-  left: 28%;
+  left: 24%;
 }
 .fbs2{
   top: 26%;
@@ -99,6 +175,10 @@
 .fbs5{
   top: 24%;
   left: 62%;
+}
+.fbs6{
+  top: 50%;
+  left: 50%;
 }
 
 .fbsmv1{
@@ -161,6 +241,23 @@
   }
 }
 
+.fbsmv6{
+  animation: fbsprss2 4s infinite linear;
+}
+
+@keyframes fbsprss2 {
+  50%{
+    color: gray;
+  }
+}
+.noop1mv{
+  animation: noop1pss 3s forwards;
+}
+@keyframes noop1pss {
+100%{
+  opacity: 0;
+}
+}
 /*
 .fbsppmv1{
   animation: fbspppss1 forwards 1s;
