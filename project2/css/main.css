@@ -1,0 +1,615 @@
+/*frame*/
+  .sfbaseframe0{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -60px;
+    transform: scale(2,2);
+    opacity: 0.3;
+    transform-origin: 44px 30px;
+  }
+  .spbs0mv{
+    animation: spbs0pss 1.6s linear infinite;
+  }
+
+
+  @keyframes spbs0pss {
+    0%{
+      left: 30%;
+      opacity: 0.4;
+      top: 50%;
+      transform: scale(2,2);
+    }
+    5%{
+      top: 35%;
+    }
+    10%{
+      top: 27.5%;
+    }
+    15%{
+      top: 23%;
+    }
+    20%{
+      top: 21%;
+    }
+    25%{
+      top: 20%;
+    }
+    30%{
+      top: 21%;
+    }
+    35%{
+      top: 23%;
+    }
+    40%{
+      top: 27.5%;
+    }
+    45%{
+      top: 35%;
+    }
+    50%{
+      left: 70%;
+      top: 50%;
+      transform: scale(2,2) rotate(0deg);
+    }
+    55%{
+      top: 35%;
+    }
+    60%{
+      top: 27.5%;
+    }
+    65%{
+      top: 23%;
+    }
+    70%{
+      top: 21%;
+    }
+    75%{
+      top: 20%;
+    }
+    80%{
+      top: 21%;
+    }
+    85%{
+      top: 23%;
+    }
+    90%{
+      top: 27.5%;
+    }
+    95%{
+      top: 35%;
+    }
+    100%{
+      left: 30%;
+      top: 50%;
+      transform: scale(2,2) rotate(-360deg);
+      opacity: 0.4;
+    }
+
+  }
+
+
+
+  /*bases*/
+  .sfpfbase0{
+    position: absolute;
+    background-color: green;
+    width: 90px;
+    height: 3px;
+    top: 0px;
+    left: 0px;
+  }
+  .sfpfbase01{
+    position: absolute;
+    background-color: green;
+    width: 78px;
+    height: 3px;
+    top: 0px;
+    left: 0px;
+  }
+
+
+  .sfpfbase1{
+    position: absolute;
+    background-color: white;
+    width: 6px;
+    height: 54px;
+  }
+  .sfpf1 {
+    top: 0px;
+    left: 0px;
+  }
+  .sfpf2 {
+    top: 0px;
+    left: 84px;
+  }
+
+
+  .sfpfbase2{
+    position: absolute;
+    background-color: white;
+    width: 6px;
+    height: 51px;
+  }
+  .sfb21{
+    top: 39px;
+    left: 21px;
+    transform: rotate(-60deg);
+  }
+  .sfb22{
+    top: 39px;
+    left: 63px;
+    transform: rotate(60deg);
+  }
+  .sfb23{
+    top: -45px;
+    left: 42px;
+  }
+
+
+  .sfpfbase3{
+    position: absolute;
+    background-color: white;
+    width: 6px;
+    height: 34px;
+  }
+  .sfb31{
+    top: -23px;
+    left: 13px;
+    transform: rotate(60deg);
+  }
+  .sfb32{
+    top: -23px;
+    left: 71px;
+    transform: rotate(-60deg);
+  }
+
+
+  .sfpfbase4{
+    position: absolute;
+    background-color: white;
+    width: 6px;
+    height: 34px;
+  }
+  .sfb41{
+    top: 10px;
+    left: 14px;
+  }
+  .sfb42{
+    top: 10px;
+    left: 70px;
+  }
+  .sfb43{
+    top: 35px;
+    left: 29px;
+    transform: rotate(-60deg);
+  }
+  .sfb44{
+    top: 35px;
+    left: 55px;
+    transform: rotate(60deg);
+  }
+
+
+  .sfpfbase5{
+    position: absolute;
+    background-color: white;
+    width: 6px;
+    height: 21px;
+  }
+  .sfb51{
+    top: -5px;
+    left: 22px;
+    transform: rotate(60deg);
+  }
+  .sfb52{
+    top: -5px;
+    left: 62px;
+    transform: rotate(-60deg);
+  }
+  .sfb53{
+    top: 16px;
+    left: 26px;
+  }
+  .sfb54{
+    top: 16px;
+    left: 58px;
+  }
+  .sfb55{
+    top: 30px;
+    left: 34px;
+    transform: rotate(-60deg);
+  }
+  .sfb56{
+    top: 30px;
+    left: 50px;
+    transform: rotate(60deg);
+  }
+
+
+  .sfpfbase6{
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    background-color: white;
+    width: 26px;
+    height: 6px;
+  }
+
+
+  .sfpfbase7{
+    position: absolute;
+    background-color: white;
+    width: 6px;
+    height: 17px;
+  }
+  .sfb71{
+    top: 6px;
+    left: 22px;
+    transform: rotate(-60deg);
+  }
+  .sfb72{
+    top: 6px;
+    left: 62px;
+    transform: rotate(60deg);
+  }
+  .sfb73{
+    top: 32px;
+    left: 21px;
+    transform: rotate(60deg);
+  }
+  .sfb74{
+    top: 32px;
+    left: 64px;
+    transform: rotate(-60deg);
+  }
+  .sfb75{
+    top: -2px;
+    left: 8px;
+    transform: rotate(-60deg);
+  }
+  .sfb76{
+    top: -2px;
+    left: 76px;
+    transform: rotate(60deg);
+  }
+  .sfb77{
+    top: 39px;
+    left: 9px;
+    transform: rotate(60deg);
+  }
+  .sfb78{
+    top: 39px;
+    left: 76px;
+    transform: rotate(-60deg);
+  }
+
+
+  .sfpfbase8{
+    position: absolute;
+    background-color: white;
+    width: 6px;
+    height: 20px;
+  }
+  .sfb81{
+    top: 42px;
+    left: 42px;
+  }
+  .sfb82{
+    top: 58px;
+    left: 42px;
+  }
+
+
+  .sfdeco1{
+    position: absolute;
+    top: 0px;
+    left: -1px;
+  }
+  .sfdeco2{
+    position: absolute;
+    top: 54px;
+    left: -1px;
+    transform: rotate(-60deg);
+  }
+  .sfdeco3{
+    position: absolute;
+    top: 80px;
+    left: 44px;
+    transform: rotate(-120deg);
+  }
+  .sfdeco4{
+    position: absolute;
+    top: 56px;
+    left: 90px;
+    transform: rotate(180deg);
+  }
+  .sfdeco5{
+    position: absolute;
+    top: 0px;
+    left: 92px;
+    transform: rotate(120deg);
+  }
+
+
+
+  .sfpfbase9{
+    position: absolute;
+    background-color: white;
+    width: 6px;
+    height: 24px;
+  }
+  .sfb91{
+    top: -20px;
+    left: 0px;
+  }
+  .sfb92{
+    top: -3px;
+    left: -10px;
+    transform: rotate(60deg);
+  }
+  .sfb93{
+    top: -15px;
+    left: -10px;
+    transform: rotate(-60deg);
+  }
+
+/*letter start*/
+/*A*/
+.spltta{
+  position: absolute;
+  top:60px;
+  left:60px;
+}
+/*B*/
+.splttb{
+  position: absolute;
+  top:60px;
+  left:210px;
+}
+/*C*/
+.splttc{
+  position: absolute;
+  top:60px;
+  left:360px;
+}
+/*D*/
+.splttd{
+  position: absolute;
+  top:60px;
+  left:510px;
+}
+/*E*/
+.spltte{
+  position: absolute;
+  top:60px;
+  left:660px;
+}
+/*F*/
+.splttf{
+  position: absolute;
+  top:60px;
+  left:810px;
+}
+/*G*/
+.splttg{
+  position: absolute;
+  top:60px;
+  left:960px;
+}
+/*H*/
+.spltth{
+  position: absolute;
+  top:60px;
+  left:1110px;
+}
+/*I*/
+.spltti{
+  position: absolute;
+  top:210px;
+  left:60px;
+}
+/*J*/
+.splttj{
+  position: absolute;
+  top:210px;
+  left:210px;
+}
+/*K*/
+.splttk{
+  position: absolute;
+  top:210px;
+  left:360px;
+}
+/*L*/
+.splttl{
+  position: absolute;
+  top:210px;
+  left:510px;
+}
+/*M*/
+.splttm{
+  position: absolute;
+  top:210px;
+  left:660px;
+}
+/*N*/
+.splttn{
+  position: absolute;
+  top:210px;
+  left:810px;
+}
+/*O*/
+.spltto{
+  position: absolute;
+  top:210px;
+  left:960px;
+}
+/*P*/
+.splttp{
+  position: absolute;
+  top:210px;
+  left:1110px;
+}
+/*Q*/
+.splttq{
+  position: absolute;
+  top:360px;
+  left:60px;
+}
+/*R*/
+.splttr{
+  position: absolute;
+  top:360px;
+  left:210px;
+}
+/*S*/
+.spltts{
+  position: absolute;
+  top:360px;
+  left:360px;
+}
+/*T*/
+.splttt{
+  position: absolute;
+  top:360px;
+  left:510px;
+}
+/*U*/
+.splttu{
+  position: absolute;
+  top:360px;
+  left:660px;
+}
+/*V*/
+.splttv{
+  position: absolute;
+  top:360px;
+  left:810px;
+}
+/*W*/
+.splttw{
+  position: absolute;
+  top:360px;
+  left:960px;
+}
+/*X */
+.splttx{
+  position: absolute;
+  top:360px;
+  left:1110px;
+}
+/*Y*/
+.spltty{
+  position: absolute;
+  top:510px;
+  left:60px;
+}
+/*Z*/
+.splttz{
+  position: absolute;
+  top:510px;
+  left:210px;
+}
+/*0*/
+.spltt0{
+  position: absolute;
+  top:510px;
+  left:360px;
+}
+/*1*/
+.spltt1{
+  position: absolute;
+  top:510px;
+  left:510px;
+}
+/*2*/
+.spltt2{
+  position: absolute;
+  top:510px;
+  left:660px;
+}
+/*3*/
+.spltt3{
+  position: absolute;
+  top:510px;
+  left:810px;
+}
+/*4*/
+.spltt4{
+  position: absolute;
+  top:510px;
+  left:960px;
+}
+/*5*/
+.spltt5{
+  position: absolute;
+  top:510px;
+  left:1110px;
+}
+/*6*/
+.spltt6{
+  position: absolute;
+  top:660px;
+  left:60px;
+}
+/*7*/
+.spltt7{
+  position: absolute;
+  top:660px;
+  left:210px;
+}
+/*8*/
+.spltt8{
+  position: absolute;
+  top:660px;
+  left:360px;
+}
+/*9*/
+.spltt9{
+  position: absolute;
+  top:660px;
+  left:510px;
+}
+
+/*full stop*/
+.splttstp{
+  position: absolute;
+  top:660px;
+  left:660px;
+}
+
+/*Exclamation mark*/
+.splttexm{
+  position: absolute;
+  top:660px;
+  left:810px;
+}
+
+/*question mark*/
+.splttqmk{
+  position: absolute;
+  top:660px;
+  left:960px;
+}
+
+/*rest*/
+.splttrest{
+  position: absolute;
+  top:660px;
+  left:1110px;
+}
+
+/*openmark*/
+.splttom{
+  position: absolute;
+  top:810px;
+  left:60px;
+}
+/*closemark*/
+.splttcm{
+  position: absolute;
+  top:810px;
+  left:210px;
+}
