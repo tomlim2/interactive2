@@ -1,9 +1,10 @@
 /*frame*/
   .boxxx1{
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-    
+    position: relative;
+    width: 100%;
+    height: 700px;
+    /*background-color: blue;*/
+    overflow: hidden;
   }
 
   .sfbaseframe0{
@@ -18,6 +19,47 @@
   }
   .spbs0mv{
     animation: spbs0pss 1.6s linear infinite;
+  }
+  .jump2mv{
+    animation: jump2prss 1.6s linear ;
+    transform-origin: center;
+  }
+  @keyframes jump2prss {
+    0%{
+      left: 20%;
+      top: -20%;
+      transform: rotate(0deg);
+    }
+
+    40%{
+      top: 70%;
+    }
+    45%{
+      top: 75%;
+    }
+    49%{
+      top: 77%;
+    }
+    50%{
+      left: 60%;
+      top: 78%;
+    }
+    51%{
+      top: 77%;
+    }
+    55%{
+      top: 75%;
+    }
+    60%{
+      top: 70%;
+    }
+
+    100%{
+      left: 80%;
+      top: -20%;
+      transform: rotate(-720deg);
+    }
+
   }
 
   @keyframes spbs0pss {
@@ -365,7 +407,7 @@
 /*A*/
 .spltta{
   position: absolute;
-  top:60px;
+  top:-160px;
   left:60px;
 }
 /*B*/

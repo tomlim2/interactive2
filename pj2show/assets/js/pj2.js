@@ -10,21 +10,10 @@ $(document).ready(function() {
 
   $('body').keydown(function(e){
     if(e.keyCode == 65){
-    $('.boxxx1').addClass('spbs0mv');
+    $('.spltta').toggleClass('jump2mv');
     }
   });
 
-    $('body').keydown(function(e){
-    if(e.keyCode == 65){
-    $(this).css({'background':'white'});
-    }
-  });
-
-    $('body').keydown(function(e){
-    if(e.keyCode == 83){
-    $(this).css({'background':'blue'});
-    }
-  });
 
 
 });

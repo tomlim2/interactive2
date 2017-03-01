@@ -1,7 +1,15 @@
 $(document).ready(function() {
+
+
+
   $(".spltta").hover(function(){
-    $(".spltta").addClass('shakemv');
-  });
+    $("#xl01")[0].currentTime=0;
+    $("#xl01")[0].play();
+    $(".spltta").toggleClass('shakemv');
+    }
+  );
+
+
 
   $('body').keydown(function(e){
     if(e.keyCode == 65){
@@ -66,17 +74,6 @@ $(document).ready(function() {
       $(".spltti").toggleClass('shakemv');
     }
   });
-
-
-
-  $(".spltta").hover(function(){
-    $("#xl01")[0].pause();
-    $("#xl01")[0].currentTime=0;
-    $("#xl01")[0].play();
-    $(".splttj").toggleClass('shakemv');
-    //hover in
-  }
-  );
 
 
 
