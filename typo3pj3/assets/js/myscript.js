@@ -1,11 +1,11 @@
-$("#mvpoint1").click(function() {
-$('html, body').animate({
-  scrollLeft: $("#mvpoint2").offset().left
-}, 1200);
-
-});
 
 
+  $("#mvpoint1").click(function() {
+  $('html, body').animate({
+    scrollLeft: $("#mvpoint2").offset().left
+  }, 1200);
+
+  });
 
   $("#boxxx01").hover(function() {
     $(".dc1").toggleClass('appearmv');

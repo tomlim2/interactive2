@@ -7,19 +7,19 @@
 }
 
 /*frame*/
-  .sfbaseframe0{
+  /*.sfbaseframe0{
     position: fixed;
     top: 50%;
     left: 50%;
     margin-top: -20px;
     margin-left: -110px;
-    transform: scale(2,2);
     opacity: 0.3;
+    transform: scale(2,2);
     transform-origin: center;
-  }
-  .spbs0mv{
-    animation: spbs0pss 1.2s linear;
-  }
+  }*/
+  /*.spbs0mv{
+    animation: spbs0pss 1.2s linear infinite;
+  }*/
   .shakemv {
     animation: shakeprss 0.2s;
   }
@@ -45,6 +45,7 @@
 
   @keyframes spbs0pss {
     0%{
+      transform: scale(0.1,0.1);
       top: 50%;
     }
     5%{
@@ -75,6 +76,7 @@
       top: 35%;
     }
     50%{
+      transform: scale(2,2);
       top: 50%;
     }
     55%{
@@ -107,6 +109,7 @@
     100%{
       color: white;
       top: 50%;
+      transform: scale(0.1,0.1);
     }
 
   }
@@ -390,7 +393,9 @@
   width: 160px;
   height: 160px;
   /*background-color: red;*/
+  opacity: 0.3;
 }
+
 
 /*A*/
 

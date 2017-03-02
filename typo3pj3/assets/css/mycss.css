@@ -69,8 +69,8 @@ body{
   position: absolute;
   width: 672px;
   height: 491px;
-  top: 23px;
-  left: 1600px;
+  top: 195px;
+  left: 1404px;
   background-image: url(../img/img_0013.png);
   background-size: cover;
   z-index: 8;
@@ -113,10 +113,10 @@ body{
 
 .dc5{
   position: absolute;
-  width: 1466px;
-  height: 546px;
-  top: -33px;
-  left: 1794px;
+  width: 725px;
+  height: 545px;
+  top: 0px;
+  left: 1905px;
   background-image: url(../img/img_0015.png);
   background-size: cover;
   z-index: 8;
@@ -137,7 +137,7 @@ body{
   position: absolute;
   width: 698px;
   height: 535px;
-  top: -31px;
+  top: -32px;
   left: 2599px;
   background-image: url(../img/img_0016.png);
   background-size: cover;
@@ -159,8 +159,8 @@ body{
   position: absolute;
   width: 773px;
   height: 535px;
-  top: -32px;
-  left: 3249px;
+  top: -33px;
+  left: 3248px;
   background-image: url(../img/img_0017.png);
   background-size: cover;
   z-index: 8;
@@ -179,8 +179,8 @@ body{
 }
 .dc8{
   position: absolute;
-  width: 773px;
-  height: 532px;
+  width: 493px;
+  height: 629px;
   top: 13px;
   left: 2650px;
   background-image: url(../img/img_0018.png);
@@ -225,8 +225,8 @@ body{
   position: absolute;
   width: 925px;
   height: 421px;
-  top: 10px;
-  left: 4967px;
+  top: 103px;
+  left: 4955px;
   background-image: url(../img/img_0020.png);
   background-size: cover;
   z-index: 8;
@@ -338,7 +338,7 @@ body{
   position: absolute;
   width: 792px;
   height: 483px;
-  top: 47px;
+  top: 76px;
   left: 9097px;
   background-image: url(../img/img_0025.png);
   background-size: cover;
@@ -476,4 +476,24 @@ body{
  100%{
    opacity: 1;
  }
+}
+.nav00{
+  z-index: 20;
+  /*background-color: red;*/
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
+#navmap{
+  position: absolute;
+  left: 50%;
+  margin-left: -575px;
+  width: 1150px;
+  height: 72px;
+  background-image: url(../img/img_0003.jpg);
+  background-size: cover;
+  opacity: 0.8;
 }
