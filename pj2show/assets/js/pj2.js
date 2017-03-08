@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+// first snow start
+
   $(".sfbaseframe1").click(function(){
     $(".bgccr").addClass('bgccrmv');
 
@@ -61,230 +63,61 @@ $(document).ready(function() {
     $(".fssplttrest").addClass('spfsmv40');
   });
 
+// first snow end
 
-
-
-  var mySnow = ['a01', 'a02', 'a03', 'a04', 'a05', 'a06', 'a07', 'a08', 'a09', 'a10', 'a11', 'a12', 'a13', 'a14', 'a15', 'a16', 'a17', 'a18', 'a19', 'a20', 'a21', 'a22', 'a23', 'a24'];
 
   $(".sfbaseframe0").click(function(){
-    var rand = mySnow[Math.floor(Math.random() * mySnow.length)];
-    // pack1
-    if(rand == 'a01'){
-      $(".spltta").toggleClass('snowmvr1');
-      $(".splttb").toggleClass('snowmvr2');
-      $(".splttc").toggleClass('snowmvr3');
-      $(".splttd").toggleClass('snowmvr4');
-      $(".spltte").toggleClass('snowmvr5');
-    }
-    if(rand == 'a02'){
-      $(".splttf").toggleClass('snowmvr6');
-      $(".splttg").toggleClass('snowmvr7');
-      $(".spltth").toggleClass('snowmvr8');
-      $(".spltti").toggleClass('snowmvr9');
-      $(".splttj").toggleClass('snowmvr10');
-    }
-    if(rand == 'a03'){
-      $(".splttk").toggleClass('snowmvr11');
-      $(".splttl").toggleClass('snowmvr12');
-      $(".splttm").toggleClass('snowmvr13');
-      $(".splttn").toggleClass('snowmvr14');
-      $(".spltto").toggleClass('snowmvr15');
-    }
-    if(rand == 'a04'){
-      $(".splttp").toggleClass('snowmvr16');
-      $(".splttq").toggleClass('snowmvr17');
-      $(".splttr").toggleClass('snowmvr18');
-      $(".spltts").toggleClass('snowmvr19');
-      $(".splttt").toggleClass('snowmvr20');
-    }
-    if(rand == 'a05'){
-      $(".splttu").toggleClass('snowmvr21');
-      $(".splttv").toggleClass('snowmvr22');
-      $(".splttw").toggleClass('snowmvr23');
-      $(".splttx").toggleClass('snowmvr24');
-      $(".spltty").toggleClass('snowmvr25');
-      $(".splttz").toggleClass('snowmvr26');
-      $(".spltt0").toggleClass('snowmvr27');
-      $(".spltt1").toggleClass('snowmvr28');
-      $(".spltt2").toggleClass('snowmvr29');
-      $(".spltt3").toggleClass('snowmvr30');
-    }
-    if(rand == 'a06'){
-      $(".spltt4").toggleClass('snowmvr31');
-      $(".spltt5").toggleClass('snowmvr32');
-      $(".spltt6").toggleClass('snowmvr33');
-      $(".spltt7").toggleClass('snowmvr34');
-      $(".spltt8").toggleClass('snowmvr35');
-      $(".spltt9").toggleClass('snowmvr36');
-      $(".splttstp").toggleClass('snowmvr37');
-      $(".splttexm").toggleClass('snowmvr38');
-      $(".splttqmk").toggleClass('snowmvr39');
-      $(".splttrest").toggleClass('snowmvr40');
-    }
-
     // pack2
-    if(rand == 'a07'){
-      $(".asplttcm").toggleClass('asnowmvr1');
-      $(".asplttom").toggleClass('asnowmvr2');
-      $(".asplttrest").toggleClass('asnowmvr3');
-      $(".asplttqmk").toggleClass('asnowmvr4');
-      $(".asplttexm").toggleClass('asnowmvr5');
-    }
-    if(rand == 'a08'){
-      $(".aspltta").toggleClass('asnowmvr6');
-      $(".asplttb").toggleClass('asnowmvr7');
-      $(".asplttc").toggleClass('asnowmvr8');
-      $(".asplttd").toggleClass('asnowmvr9');
-      $(".aspltte").toggleClass('asnowmvr10');
-    }
-    if(rand == 'a09'){
-      $(".asplttf").toggleClass('asnowmvr11');
-      $(".asplttg").toggleClass('asnowmvr12');
-      $(".aspltth").toggleClass('asnowmvr13');
-      $(".aspltti").toggleClass('asnowmvr14');
-      $(".asplttj").toggleClass('asnowmvr15');
-    }
-    if(rand == 'a10'){
-      $(".aspltt0").toggleClass('asnowmvr16');
-      $(".aspltt1").toggleClass('asnowmvr17');
-      $(".aspltt2").toggleClass('asnowmvr18');
-      $(".aspltt3").toggleClass('asnowmvr19');
-      $(".aspltt4").toggleClass('asnowmvr20');
-    }
-    if(rand == 'a11'){
-      $(".aspltt5").toggleClass('asnowmvr21');
-      $(".aspltt6").toggleClass('asnowmvr22');
-      $(".aspltt7").toggleClass('asnowmvr23');
-      $(".aspltt8").toggleClass('asnowmvr24');
-      $(".aspltt9").toggleClass('asnowmvr25');
-      $(".asplttk").toggleClass('asnowmvr26');
-      $(".asplttl").toggleClass('asnowmvr27');
-      $(".asplttm").toggleClass('asnowmvr28');
-      $(".asplttn").toggleClass('asnowmvr29');
-      $(".aspltto").toggleClass('asnowmvr30');
-    }
-    if(rand == 'a12'){
-      $(".asplttp").toggleClass('asnowmvr31');
-      $(".asplttq").toggleClass('asnowmvr32');
-      $(".asplttr").toggleClass('asnowmvr33');
-      $(".aspltts").toggleClass('asnowmvr34');
-      $(".asplttt").toggleClass('asnowmvr35');
-      $(".asplttu").toggleClass('asnowmvr36');
-      $(".asplttv").toggleClass('asnowmvr37');
-      $(".asplttw").toggleClass('asnowmvr38');
-      $(".asplttx").toggleClass('asnowmvr39');
-      $(".aspltty").toggleClass('asnowmvr40');
-    }
+    $(".shells").addClass('shellsmv');
+
+      $(".aspltta").addClass('asnowmvr1');
+      $(".asplttb").addClass('asnowmvr2');
+      $(".asplttc").addClass('asnowmvr3');
+      $(".asplttd").addClass('asnowmvr4');
+      $(".aspltte").addClass('asnowmvr5');
+
+      $(".asplttf").addClass('asnowmvr6');
+      $(".asplttg").addClass('asnowmvr7');
+      $(".aspltth").addClass('asnowmvr8');
+      $(".aspltti").addClass('asnowmvr9');
+      $(".asplttj").addClass('asnowmvr10');
+
+      $(".asplttk").addClass('asnowmvr11');
+      $(".asplttl").addClass('asnowmvr12');
+      $(".asplttm").addClass('asnowmvr13');
+      $(".asplttn").addClass('asnowmvr14');
+      $(".aspltto").addClass('asnowmvr15');
+
+      $(".asplttp").addClass('asnowmvr16');
+      $(".asplttq").addClass('asnowmvr17');
+      $(".asplttr").addClass('asnowmvr18');
+      $(".aspltts").addClass('asnowmvr19');
+      $(".asplttt").addClass('asnowmvr20');
 
 
-    // pack3
-    if(rand == 'a13'){
-      $(".bspltta").toggleClass('snowmvr1');
-      $(".bsplttb").toggleClass('snowmvr2');
-      $(".bsplttc").toggleClass('snowmvr3');
-      $(".bsplttd").toggleClass('snowmvr4');
-      $(".bspltte").toggleClass('snowmvr5');
-    }
-    if(rand == 'a14'){
-      $(".bsplttf").toggleClass('snowmvr6');
-      $(".bsplttg").toggleClass('snowmvr7');
-      $(".bspltth").toggleClass('snowmvr8');
-      $(".bspltti").toggleClass('snowmvr9');
-      $(".bsplttj").toggleClass('snowmvr10');
-    }
-    if(rand == 'a15'){
-      $(".bsplttk").toggleClass('snowmvr11');
-      $(".bsplttl").toggleClass('snowmvr12');
-      $(".bsplttm").toggleClass('snowmvr13');
-      $(".bsplttn").toggleClass('snowmvr14');
-      $(".bspltto").toggleClass('snowmvr15');
-    }
-    if(rand == 'a16'){
-      $(".bsplttp").toggleClass('snowmvr16');
-      $(".bsplttq").toggleClass('snowmvr17');
-      $(".bsplttr").toggleClass('snowmvr18');
-      $(".bspltts").toggleClass('snowmvr19');
-      $(".bsplttt").toggleClass('snowmvr20');
-    }
-    if(rand == 'a17'){
-      $(".bsplttu").toggleClass('snowmvr21');
-      $(".bsplttv").toggleClass('snowmvr22');
-      $(".bsplttw").toggleClass('snowmvr23');
-      $(".bsplttx").toggleClass('snowmvr24');
-      $(".bspltty").toggleClass('snowmvr25');
-      $(".bsplttz").toggleClass('snowmvr26');
-      $(".bspltt0").toggleClass('snowmvr27');
-      $(".bspltt1").toggleClass('snowmvr28');
-      $(".bspltt2").toggleClass('snowmvr29');
-      $(".bspltt3").toggleClass('snowmvr30');
-    }
-    if(rand == 'a18'){
-      $(".bspltt4").toggleClass('snowmvr31');
-      $(".bspltt5").toggleClass('snowmvr32');
-      $(".bspltt6").toggleClass('snowmvr33');
-      $(".bspltt7").toggleClass('snowmvr34');
-      $(".bspltt8").toggleClass('snowmvr35');
-      $(".bspltt9").toggleClass('snowmvr36');
-      $(".bsplttstp").toggleClass('snowmvr37');
-      $(".bsplttexm").toggleClass('snowmvr38');
-      $(".bsplttqmk").toggleClass('snowmvr39');
-      $(".bsplttrest").toggleClass('snowmvr40');
-    }
+      $(".asplttu").addClass('asnowmvr21');
+      $(".asplttv").addClass('asnowmvr22');
+      $(".asplttw").addClass('asnowmvr23');
+      $(".asplttx").addClass('asnowmvr24');
+      $(".aspltty").addClass('asnowmvr25');
+      $(".asplttz").addClass('asnowmvr26');
+      $(".aspltt0").addClass('asnowmvr27');
+      $(".aspltt1").addClass('asnowmvr28');
+      $(".aspltt2").addClass('asnowmvr29');
+      $(".aspltt3").addClass('asnowmvr30');
 
 
-    // pack4
-    if(rand == 'a19'){
-      $(".csplttcm").toggleClass('asnowmvr1');
-      $(".csplttom").toggleClass('asnowmvr2');
-      $(".csplttrest").toggleClass('asnowmvr3');
-      $(".csplttqmk").toggleClass('asnowmvr4');
-      $(".csplttexm").toggleClass('asnowmvr5');
-    }
-    if(rand == 'a20'){
-      $(".cspltta").toggleClass('asnowmvr6');
-      $(".csplttb").toggleClass('asnowmvr7');
-      $(".csplttc").toggleClass('asnowmvr8');
-      $(".csplttd").toggleClass('asnowmvr9');
-      $(".cspltte").toggleClass('asnowmvr10');
-    }
-    if(rand == 'a21'){
-      $(".csplttf").toggleClass('asnowmvr11');
-      $(".csplttg").toggleClass('asnowmvr12');
-      $(".cspltth").toggleClass('asnowmvr13');
-      $(".cspltti").toggleClass('asnowmvr14');
-      $(".csplttj").toggleClass('asnowmvr15');
-    }
-    if(rand == 'a22'){
-      $(".cspltt0").toggleClass('asnowmvr16');
-      $(".cspltt1").toggleClass('asnowmvr17');
-      $(".cspltt2").toggleClass('asnowmvr18');
-      $(".cspltt3").toggleClass('asnowmvr19');
-      $(".cspltt4").toggleClass('asnowmvr20');
-    }
-    if(rand == 'a23'){
-      $(".cspltt5").toggleClass('asnowmvr21');
-      $(".cspltt6").toggleClass('asnowmvr22');
-      $(".cspltt7").toggleClass('asnowmvr23');
-      $(".cspltt8").toggleClass('asnowmvr24');
-      $(".cspltt9").toggleClass('asnowmvr25');
-      $(".csplttk").toggleClass('asnowmvr26');
-      $(".csplttl").toggleClass('asnowmvr27');
-      $(".csplttm").toggleClass('asnowmvr28');
-      $(".csplttn").toggleClass('asnowmvr29');
-      $(".cspltto").toggleClass('asnowmvr30');
-    }
-    if(rand == 'a24'){
-      $(".csplttp").toggleClass('asnowmvr31');
-      $(".csplttq").toggleClass('asnowmvr32');
-      $(".csplttr").toggleClass('asnowmvr33');
-      $(".cspltts").toggleClass('asnowmvr34');
-      $(".csplttt").toggleClass('asnowmvr35');
-      $(".csplttu").toggleClass('asnowmvr36');
-      $(".csplttv").toggleClass('asnowmvr37');
-      $(".csplttw").toggleClass('asnowmvr38');
-      $(".csplttx").toggleClass('asnowmvr39');
-      $(".cspltty").toggleClass('asnowmvr40');
-    }
+      $(".aspltt4").addClass('asnowmvr31');
+      $(".aspltt5").addClass('asnowmvr32');
+      $(".aspltt6").addClass('asnowmvr33');
+      $(".aspltt7").addClass('asnowmvr34');
+      $(".aspltt8").addClass('asnowmvr35');
+      $(".aspltt9").addClass('asnowmvr36');
+      $(".asplttstp").addClass('asnowmvr37');
+      $(".asplttexm").addClass('asnowmvr38');
+      $(".asplttx").addClass('asnowmvr39');
+      $(".aspltty").addClass('asnowmvr40');
+
     // console.log(rand);
   });
 

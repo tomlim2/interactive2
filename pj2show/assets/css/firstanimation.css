@@ -175,6 +175,10 @@
   opacity: 0;
   transform: scale(2,2);
   transform-origin: center;
+
+  opacity: 0.6;
+  top: 50%;
+  z-index: 10;
 }
 .revealmv{
   animation: revealprss 1s forwards;

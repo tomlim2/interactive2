@@ -2,7 +2,7 @@ body{
   background-color: #114964;
 }
 
-#bigframe{
+#bigframe0{
   position: relative;
   height: 700px;
   width: 100%;
@@ -304,7 +304,6 @@ body{
 /*position*/
 .shells{
 
-  background-color: red;
 }
 
 
