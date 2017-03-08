@@ -38,7 +38,7 @@ body{
   top: 500px;
   left: 1304px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 
 
@@ -61,7 +61,7 @@ body{
   top: 117px;
   left: 1304px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 
@@ -84,7 +84,7 @@ body{
   top: 312px;
   left: 1664px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 
@@ -107,7 +107,7 @@ body{
   top: 119px;
   left: 2040px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 
@@ -130,7 +130,7 @@ body{
   top: 312px;
   left: 2037px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 .dc6{
@@ -152,7 +152,7 @@ body{
   top: 118px;
   left: 2685px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 .dc7{
@@ -174,12 +174,12 @@ body{
   top: 118px;
   left: 3332px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 .dc8{
   position: absolute;
-  width: 493px;
+  width: 773px;
   height: 629px;
   top: 13px;
   left: 2650px;
@@ -196,7 +196,7 @@ body{
   top: 312px;
   left: 2683px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 .dc9{
@@ -218,7 +218,7 @@ body{
   top: 312px;
   left: 3965px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 .dc10{
@@ -240,7 +240,7 @@ body{
   top: 312px;
   left: 4987px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 
@@ -263,7 +263,7 @@ body{
   top: 312px;
   left: 6026px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 .dc12{
@@ -285,7 +285,7 @@ body{
   top: 312px;
   left: 6835px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 .dc13{
@@ -307,7 +307,7 @@ body{
   top: 312px;
   left: 7838px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 
@@ -330,7 +330,7 @@ body{
   top: 312px;
   left: 8521px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 
@@ -353,7 +353,7 @@ body{
   top: 102px;
   left: 9159px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 
@@ -376,7 +376,7 @@ body{
   top: 502px;
   left: 9159px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 
@@ -399,14 +399,14 @@ body{
   top: 501px;
   left: 11545px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
 }
 
 .dc18{
   position: absolute;
-  width: 815px;
-  height: 193px;
+  width: 474px;
+  height: 273px;
   top: 62px;
   left: 9780px;
   background-image: url(../img/img_0028.png);
@@ -422,8 +422,83 @@ body{
   top: 102px;
   left: 9833px;
   z-index: 10;
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*background-color: red;*/
+}
+
+#boxxx19{
+  position: absolute;
+  width: 91px;
+  height: 48px;
+  top: 388px;
+  left: 3145px;
+  z-index: 10;
+  /*cursor: pointer;
+  background-color: red;*/
+}
+#boxxx20{
+  position: absolute;
+  width: 371px;
+  height: 26px;
+  top: 502px;
+  left: 9833px;
+  z-index: 10;
+  /*cursor: pointer;
+  background-color: red;*/
+}
+#boxxx21{
+  position: absolute;
+  width: 288px;
+  height: 26px;
+  top: 502px;
+  left: 10439px;
+  z-index: 10;
+  /*cursor: pointer;
+  background-color: red;*/
+}
+
+#boxxx22{
+  position: absolute;
+  width: 375px;
+  height: 26px;
+  top: 502px;
+  left: 10933px;
+  z-index: 10;
+  /*cursor: pointer;
+  background-color: red;*/
+}
+
+#boxxx23{
+  position: absolute;
+  width: 118px;
+  height: 26px;
+  top: 292px;
+  left: 11879px;
+  z-index: 10;
+  /*cursor: pointer;
+  background-color: red;*/
+}
+
+#boxxx24{
+  position: absolute;
+  width: 128px;
+  height: 46px;
+  top: 172px;
+  left: 12129px;
+  z-index: 10;
+  /*cursor: pointer;
+  background-color: red;*/
+}
+
+#boxxx25{
+  position: absolute;
+  width: 128px;
+  height: 56px;
+  top: 372px;
+  left: 12129px;
+  z-index: 10;
+  /*cursor: pointer;
+  background-color: red;*/
 }
 
 #mvpoint1{
@@ -443,7 +518,6 @@ body{
   top: 592px;
   left: 1940px;
   z-index: 10;
-  cursor: pointer;
   /*background-color: red;*/
 }
 .op07{
@@ -477,6 +551,23 @@ body{
    opacity: 1;
  }
 }
+.appearmv2{
+  animation: appearprss2 infinite 2s;
+}
+@keyframes appearprss2 {
+ 0%{
+   background-color: #ece3dc;
+   opacity: 0.4;
+ }
+ 50%{
+   opacity: 1;
+ }
+ 100%{
+   background-color: #ece3dc;
+   opacity: 0.4;
+ }
+}
+
 .nav00{
   z-index: 20;
   /*background-color: red;*/
@@ -490,10 +581,130 @@ body{
 #navmap{
   position: absolute;
   left: 50%;
-  margin-left: -575px;
+  margin-left: -574px;
   width: 1150px;
   height: 72px;
-  background-image: url(../img/img_0003.jpg);
+  background-image: url(../img/img_0004.png);
   background-size: cover;
-  opacity: 0.8;
+  border: 1px solid #141414;
+  border-radius: 5%;
+  opacity: 1;
+  transform: scale(0.9,0.9);
 }
+
+.dots{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #0e3b62;
+  position: absolute;
+  opacity: 0.6;
+}
+
+.dotsps1{
+  top: 15px;
+  left: -453px;
+}
+.dotsps2{
+  top: 48px;
+  left: -450px;
+}
+.dotsps3{
+  top: 32px;
+  left: -422px;
+}
+.dotsps4{
+  top: 32px;
+  left: -383px;
+}
+.dotsps5{
+  top: 14px;
+  left: -373px;
+}
+.dotsps6{
+  top: 14px;
+  left: -320px;
+}
+.dotsps7{
+  top: 32px;
+  left: -317px;
+}
+.dotsps8{
+  top: 14px;
+  left: -257px;
+}
+
+  .dotsps9{
+    top: 43px;
+    left: -280px;
+  }
+  .dotsps10{
+    top: 32px;
+    left: -191px;
+  }
+  .dotsps11{
+    top: 32px;
+    left: -102px;
+  }
+  .dotsps12{
+    top: 32px;
+    left: -7px;
+  }
+  .dotsps13{
+    top: 32px;
+    left: 68px;
+  }
+  .dotsps14{
+    top: 32px;
+    left: 164px;
+  }
+  .dotsps15{
+    top: 32px;
+    left: 217px;
+  }
+  .dotsps16{
+    top: 11px;
+    left: 289px;
+  }
+
+  .dotsps17{
+    top: 51px;
+    left: 289px;
+  }
+  .dotsps18{
+    top: 13px;
+    left: 337px;
+  }
+  .dotsps19{
+    top: 50px;
+    left: 346px;
+  }
+  .dotsps20{
+    top: 50px;
+    left: 405px;
+  }
+  .dotsps21{
+    top: 50px;
+    left: 456px;
+  }
+  .dotsps22{
+    top: 50px;
+    left: 498px;
+  }
+  .dotsps23{
+    top: 30px;
+    left: 527px;
+  }
+  .dotsps24{
+    top: 50px;
+    left: 527px;
+  }
+
+  .dotsps25{
+    top: 19px;
+    left: 547px;
+  }
+  .dotsps26{
+    top: 37px;
+    left: 546px;
+  }

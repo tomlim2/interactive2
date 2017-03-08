@@ -1,0 +1,104 @@
+
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <title>          exercise6        </title>
+        <style>
+
+        </style>
+
+        <script>
+        $(document).ready(function(){
+          window.onload = function () {
+
+          var document = window.document
+          function $ (id) {
+          	return document.getElementById(id);
+          }
+
+          function doKey (keyPressed) {
+          	if (window.event.keyCode === 13) {
+          		var submittedLetter = $('inputbox').value;
+          		if ( isCorrectLetter(submittedLetter) ) {
+          			increaseScore('correct_count');
+          		} else {
+          			increaseScore('wrong_count');
+          		}
+          		$('inputbox').value = '';
+          		createCommand();
+          	}
+          }
+
+          function isCorrectLetter (letter) {
+          	var original = $('command').firstChild.textContent.substring(
+          			"Type this: ".length);
+          	if ( letter == original ) {
+          		return true;
+          	} else {
+          		return false;
+          	}
+          }
+
+          function increaseScore (id) {
+          	if ( $(id).firstChild ) {
+          		var count = $(id).firstChild.textContent;
+          		$(id).removeChild( $(id).firstChild );
+          	} else {
+          		var count = 0;
+          	}
+          	count++; // add the point
+          	$(id).appendChild( document.createTextNode(count) );
+          }
+
+          function getLetter () {
+          	var letters = 'abcdefghijklmnopqrstuvwxyz';
+          	var i = Math.floor( Math.random() * 27 );
+          	var randomLetter = letters.substring(i, i + 1);
+          	return randomLetter;
+          }
+
+          function createCommand () {
+          	if ( $('command').firstChild ) {
+          		$('command').removeChild( $('command').firstChild );
+          	}
+          	var randomLetter = getLetter();
+          	var command = "Type this: " + randomLetter;
+          	$('command').appendChild( document.createTextNode(command) );
+          }
+
+          // register event
+          document.getElementsByTagName("body")[0].onkeypress = doKey;
+
+          // onload
+          createCommand();
+
+          }
+        });
+
+        </script>
+    </head>
+
+    <body>
+      <h1>Typing practice game for children</h1>
+
+	<div id='correct_box'>Correct:
+		<span id='correct_count'></span>
+	</div>
+
+	<div id='wrong_box'>Wrong:
+		<span id='wrong_count'></span>
+	</div>
+
+	<div id='command'>
+	</div>
+
+	<div id='input'>
+		<input type='text' id='inputbox'>
+	</div>
+
+	<div id='result'>
+	</div>
+    </body>
+</html>
