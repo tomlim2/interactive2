@@ -23,11 +23,12 @@
   left: 50%;
   margin-left: -40px;
 }
-.ssallctrlmv{
-  animation: ssallctrlprss 3s forwards;
+.showshellmv{
+  animation: showshellprss 3s forwards;
   animation-delay: 5s;
+  opacity: 1;
 }
-@keyframes ssallctrlprss {
+@keyframes showshellprss {
   0%{
     opacity: 1;
   }
@@ -65,7 +66,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 54px;
     left: 88px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -84,14 +85,11 @@ z-index: 60;
     top: -60%;
     opacity: 1;
   }
-  60%{
-    opacity: 1;
-  }
   100%{
     transform: scale(0.9,0.9);
     top: 54px;
     left: 221px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -113,7 +111,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
    top: 54px;
    left: 354px;
-   opacity: 1;
+   opacity: 0;
   }
 }
 
@@ -135,7 +133,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
    top: 54px;
    left: 490px;
-   opacity: 1;
+   opacity: 0;
   }
 }
 
@@ -157,7 +155,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
    top: 54px;
    left: 625px;
-   opacity: 1;
+   opacity: 0;
   }
 }
 
@@ -180,7 +178,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
    top: 54px;
    left: 760px;
-   opacity: 1;
+   opacity: 0;
   }
 }
 
@@ -202,7 +200,7 @@ z-index: 59;
    transform: scale(0.9,0.9);
    top: 54px;
    left: 895px;
-   opacity: 1;
+   opacity: 0;
   }
 }
 
@@ -225,7 +223,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 54px;
     left: 1030px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -247,7 +245,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 54px;
     left: 1165px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -273,7 +271,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 191px;
     left: 88px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -296,7 +294,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 191px;
     left: 221px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -318,7 +316,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 191px;
     left: 354px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -340,7 +338,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 191px;
     left: 490px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -362,7 +360,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 191px;
     left: 625px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -384,7 +382,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 191px;
     left: 760px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -401,13 +399,13 @@ z-index: 60;
   20%{
     transform: scale(1,1) translateX(-850px);
     top: -20%;
-    opacity: 1;
+    opacity: 0;
   }
   100%{
     transform: scale(0.9,0.9);
     top: 191px;
     left: 895px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -429,7 +427,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 191px;
     left: 1030px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -451,7 +449,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 191px;
     left: 1165px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -477,7 +475,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 328px;
     left: 88px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -499,7 +497,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 328px;
     left: 221px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -522,7 +520,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 328px;
     left: 354px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -544,7 +542,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 328px;
     left: 490px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -566,7 +564,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 328px;
     left: 625px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -588,7 +586,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 328px;
     left: 760px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -610,7 +608,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 328px;
     left: 895px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -632,7 +630,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 328px;
     left: 1030px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -654,7 +652,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 328px;
     left: 1165px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -676,7 +674,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 465px;
     left: 88px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -698,7 +696,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 465px;
     left: 221px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -720,7 +718,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 465px;
     left: 354px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -744,7 +742,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 465px;
     left: 895px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -766,7 +764,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 465px;
     left: 1030px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -788,7 +786,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 465px;
     left: 1165px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -810,7 +808,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 602px;
     left: 88px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -832,7 +830,7 @@ z-index: 59;
     transform: scale(0.9,0.9);
     top: 602px;
     left: 221px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -854,7 +852,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 602px;
     left: 354px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -876,7 +874,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 602px;
     left: 495px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -898,7 +896,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 602px;
     left: 625px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -920,7 +918,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 602px;
     left: 760px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -942,7 +940,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 602px;
     left: 895px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 .asnowmvr41{
@@ -965,7 +963,7 @@ z-index: 60;
     transform: scale(0.9,0.9);
     top: 602px;
     left: 1030px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -984,13 +982,10 @@ z-index: 60;
     top: -60%;
     opacity: 1;
   }
-  60%{
-    opacity: 1;
-  }
   100%{
     transform: scale(0.9,0.9);
     top: 602px;
     left: 1165px;
-    opacity: 1;
+    opacity: 0;
   }
 }

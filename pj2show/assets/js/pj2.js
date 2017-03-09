@@ -93,19 +93,15 @@ $(document).ready(function() {
     setTimeout(function(){
       $("#xl16")[0].play();
     },0000);
-
       $(".ssbaseframe0").removeClass('spfa00mv');
       $(".ssbaseframe0").addClass('clickeffmv');
       $(".firstsnowframe").addClass('hidden');
       setTimeout(function(){
-        $(".ssallctrl").fadeOut("slow");
+        $(".showframe").fadeOut("slow");
       },5500);
       setTimeout(function(){
-        $(".showframe").fadeOut("slow");
-      },7000);
-      setTimeout(function(){
         $(".inputbox01").fadeIn("slow");
-      },8000);
+      },5000);
       // $(".showframe").addClass('showframemv');
     // pack2
       $(".aspltta").addClass('asnowmvr1');
