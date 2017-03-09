@@ -2,49 +2,14 @@ body{
   background-color: #114964;
 }
 
-#bigframe0{
+#bigframe00{
   position: relative;
   height: 700px;
   width: 100%;
   overflow: hidden;
 }
-.centerbox1{
-  position: absolute;
-  width: 500px;
-  height: 10px;
-  background-color: red;
-  top: 50%;
-  right: 0%;
-}
-.centerbox2{
-  position: absolute;
-  width: 500px;
-  height: 10px;
-  background-color: red;
-  top: 50%;
-  left: 0%;
-}
-
-
 
   /*bases*/
-  .sfpfbase0{
-    position: absolute;
-    background-color: green;
-    width: 90px;
-    height: 3px;
-    top: 0px;
-    left: 0px;
-  }
-  .sfpfbase01{
-    position: absolute;
-    background-color: green;
-    width: 78px;
-    height: 3px;
-    top: 0px;
-    left: 0px;
-  }
-
   .sfpfbase1{
     position: absolute;
     background-color: white;
@@ -302,11 +267,6 @@ body{
 
 /*letter start*/
 /*position*/
-.shells{
-
-}
-
-
 
 /*A*/
 

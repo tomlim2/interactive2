@@ -16,32 +16,29 @@
 }*/
 
 /*key start*/
-.allctrl{
+.ssallctrl{
   position: absolute;
   opacity: 0;
   top: 100%;
   left: 50%;
   margin-left: -40px;
 }
-.shells{
-
+.ssallctrlmv{
+  animation: ssallctrlprss 3s forwards;
+  animation-delay: 5s;
 }
-/*.shellsmv{
-  animation: shellsprss 1s forwards;
-  animation-delay: 4s;
-}
-@keyframes shellsprss {
+@keyframes ssallctrlprss {
   0%{
-
+    opacity: 1;
   }
   100%{
-    position: relative;
-    float: left;
-    width: 135px;
-    height: 135px;
-    transform: scale(0.9, 0.9);
+    opacity: 0;
   }
-}*/
+}
+.showframemv{
+  animation: ssallctrlprss 3s forwards;
+  animation-delay: 5.2s;
+}
 /*key end*/
 
 
@@ -67,7 +64,7 @@ z-index: 60;
   100%{
     transform: scale(0.9,0.9);
     top: 54px;
-    left: 70px;
+    left: 88px;
     opacity: 1;
   }
 }
@@ -93,13 +90,13 @@ z-index: 60;
   100%{
     transform: scale(0.9,0.9);
     top: 54px;
-    left: 200px;
+    left: 221px;
     opacity: 1;
   }
 }
 
 .asnowmvr3{
-  animation: asnowprssr3 4.5s linear;
+  animation: asnowprssr3 4.5s linear forwards;
   z-index: 60;
 }
 @keyframes asnowprssr3 {
@@ -113,14 +110,15 @@ z-index: 60;
     opacity: 1;
   }
   100%{
-   transform: scale(1,1) translateX(-250px);
-   top: 120%;
+    transform: scale(0.9,0.9);
+   top: 54px;
+   left: 354px;
    opacity: 1;
   }
 }
 
 .asnowmvr4{
-  animation: asnowprssr4 4.5s linear;
+  animation: asnowprssr4 4.5s linear forwards;
   z-index: 60;
 }
 @keyframes asnowprssr4 {
@@ -134,14 +132,15 @@ z-index: 60;
     opacity: 1;
   }
   100%{
-   transform: scale(1,1) translateX(50px);
-   top: 140%;
+    transform: scale(0.9,0.9);
+   top: 54px;
+   left: 490px;
    opacity: 1;
   }
 }
 
 .asnowmvr5{
-animation: asnowprssr5 4.5s linear;
+animation: asnowprssr5 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr5 {
@@ -155,15 +154,16 @@ z-index: 60;
     opacity: 1;
   }
   100%{
-   transform: scale(1,1) translateX(350px);
-   top: 120%;
+    transform: scale(0.9,0.9);
+   top: 54px;
+   left: 625px;
    opacity: 1;
   }
 }
 
 /*set2*/
 .asnowmvr6{
-animation: asnowprssr6 4.5s linear;
+animation: asnowprssr6 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr6 {
@@ -177,14 +177,15 @@ z-index: 59;
     opacity: 0.6;
   }
   100%{
-   transform: scale(0.9,0.9) translateX(-750px);
-   opacity: 0.6;
-   top: 160%;
+    transform: scale(0.9,0.9);
+   top: 54px;
+   left: 760px;
+   opacity: 1;
   }
 }
 
 .asnowmvr7{
-animation: asnowprssr7 4.5s linear;
+animation: asnowprssr7 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr7 {
@@ -198,14 +199,15 @@ z-index: 59;
     opacity: 0.6;
   }
   100%{
-   transform: scale(0.9,0.9) translateX(-450px);
-   top: 120%;
-   opacity: 0.6;
+   transform: scale(0.9,0.9);
+   top: 54px;
+   left: 895px;
+   opacity: 1;
   }
 }
 
 .asnowmvr8{
-  animation: asnowprssr8 4.5s linear;
+  animation: asnowprssr8 4.5s linear forwards;
   z-index: 59;
 }
 @keyframes asnowprssr8 {
@@ -220,14 +222,15 @@ z-index: 59;
   }
 
   100%{
-   transform: scale(0.9,0.9) translateX(-150px);
-   top: 140%;
-   opacity: 0.6;
+    transform: scale(0.9,0.9);
+    top: 54px;
+    left: 1030px;
+    opacity: 1;
   }
 }
 
 .asnowmvr9{
-  animation: asnowprssr9 4.5s linear;
+  animation: asnowprssr9 4.5s linear forwards;
   z-index: 59;
 }
 @keyframes asnowprssr9 {
@@ -241,14 +244,19 @@ z-index: 59;
     opacity: 0.6;
   }
   100%{
-   transform: scale(0.9,0.9) translateX(150px);
-   top: 120%;
-   opacity: 0.6;
+    transform: scale(0.9,0.9);
+    top: 54px;
+    left: 1165px;
+    opacity: 1;
   }
 }
 
+
+
+
+
 .asnowmvr10{
-animation: asnowprssr10 4.5s linear;
+animation: asnowprssr10 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr10 {
@@ -262,15 +270,16 @@ z-index: 59;
     opacity: 0.6;
   }
   100%{
-   transform: scale(0.9,0.9) translateX(450px);
-   top: 160%;
-   opacity: 0.6;
+    transform: scale(0.9,0.9);
+    top: 191px;
+    left: 88px;
+    opacity: 1;
   }
 }
 
 /*set3*/
 .asnowmvr11{
-animation: asnowprssr11 4.5s linear;
+animation: asnowprssr11 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr11 {
@@ -284,14 +293,15 @@ z-index: 59;
     opacity: 0.6;
   }
   100%{
-   transform: scale(0.9,0.9) translateX(-650px);
-   top: 120%;
-   opacity: 0.6;
+    transform: scale(0.9,0.9);
+    top: 191px;
+    left: 221px;
+    opacity: 1;
   }
 }
 
 .asnowmvr12{
-animation: asnowprssr12 4.5s linear;
+animation: asnowprssr12 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr12 {
@@ -305,14 +315,15 @@ z-index: 59;
     opacity: 0.6;
   }
   100%{
-   transform: scale(0.9,0.9) translateX(-350px);
-   top: 140%;
-   opacity: 0.6;
+    transform: scale(0.9,0.9);
+    top: 191px;
+    left: 354px;
+    opacity: 1;
   }
 }
 
 .asnowmvr13{
-  animation: asnowprssr13 4.5s linear;
+  animation: asnowprssr13 4.5s linear forwards;
   z-index: 59;
 }
 @keyframes asnowprssr13 {
@@ -326,14 +337,15 @@ z-index: 59;
     opacity: 0.6;
   }
   100%{
-   transform: scale(0.9,0.9) translateX(-50px);
-   top: 120%;
-   opacity: 0.6;
+    transform: scale(0.9,0.9);
+    top: 191px;
+    left: 490px;
+    opacity: 1;
   }
 }
 
 .asnowmvr14{
-  animation: asnowprssr14 4.5s linear;
+  animation: asnowprssr14 4.5s linear forwards;
   z-index: 59;
 }
 @keyframes asnowprssr14 {
@@ -347,14 +359,15 @@ z-index: 59;
     opacity: 0.6;
   }
   100%{
-   transform: scale(0.9,0.9) translateX(250px);
-   top: 160%;
-   opacity: 0.6;
+    transform: scale(0.9,0.9);
+    top: 191px;
+    left: 625px;
+    opacity: 1;
   }
 }
 
 .asnowmvr15{
-animation: asnowprssr15 4.5s linear;
+animation: asnowprssr15 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr15 {
@@ -368,15 +381,16 @@ z-index: 59;
     opacity: 0.6;
   }
   100%{
-   transform: scale(0.9,0.9) translateX(550px);
-   top: 120%;
-   opacity: 0.6;
+    transform: scale(0.9,0.9);
+    top: 191px;
+    left: 760px;
+    opacity: 1;
   }
 }
 
 /*set4*/
 .asnowmvr16{
-animation: asnowprssr16 4.5s linear;
+animation: asnowprssr16 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr16 {
@@ -389,16 +403,16 @@ z-index: 60;
     top: -20%;
     opacity: 1;
   }
-
   100%{
-   transform: scale(1,1) translateX(-650px);
-   top: 140%;
-   opacity: 1;
+    transform: scale(0.9,0.9);
+    top: 191px;
+    left: 895px;
+    opacity: 1;
   }
 }
 
 .asnowmvr17{
-animation: asnowprssr17 4.5s linear;
+animation: asnowprssr17 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr17 {
@@ -412,14 +426,15 @@ z-index: 60;
     opacity: 1;
   }
   100%{
-   transform: scale(1,1) translateX(-350px);
-   top: 120%;
-   opacity: 1;
+    transform: scale(0.9,0.9);
+    top: 191px;
+    left: 1030px;
+    opacity: 1;
   }
 }
 
 .asnowmvr18{
-  animation: asnowprssr18 4.5s linear;
+  animation: asnowprssr18 4.5s linear forwards;
   z-index: 60;
 }
 @keyframes asnowprssr18 {
@@ -433,14 +448,19 @@ z-index: 60;
     opacity: 1;
   }
   100%{
-   transform: scale(1,1) translateX(-50px);
-   top: 160%;
-   opacity: 1;
+    transform: scale(0.9,0.9);
+    top: 191px;
+    left: 1165px;
+    opacity: 1;
   }
 }
 
+
+
+
+
 .asnowmvr19{
-  animation: asnowprssr19 4.5s linear;
+  animation: asnowprssr19 4.5s linear forwards;
   z-index: 60;
 }
 @keyframes asnowprssr19 {
@@ -454,14 +474,15 @@ z-index: 60;
     opacity: 1;
   }
   100%{
-   transform: scale(1,1) translateX(250px);
-   top: 120%;
-   opacity: 1;
+    transform: scale(0.9,0.9);
+    top: 328px;
+    left: 88px;
+    opacity: 1;
   }
 }
 
 .asnowmvr20{
-animation: asnowprssr20 4.5s linear;
+animation: asnowprssr20 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr20 {
@@ -475,15 +496,16 @@ z-index: 60;
     opacity: 1;
   }
   100%{
-   transform: scale(1,1) translateX(550px);
-   top: 140%;
-   opacity: 1;
+    transform: scale(0.9,0.9);
+    top: 328px;
+    left: 221px;
+    opacity: 1;
   }
 }
 
 /*set5*/
 .asnowmvr21{
-animation: asnowprssr21 4.5s linear;
+animation: asnowprssr21 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr21 {
@@ -497,14 +519,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(-750px);
-   top: 120%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 328px;
+    left: 354px;
+    opacity: 1;
   }
 }
 
 .asnowmvr22{
-animation: asnowprssr22 4.5s linear;
+animation: asnowprssr22 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr22 {
@@ -518,14 +541,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(-550px);
-   top: 160%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 328px;
+    left: 490px;
+    opacity: 1;
   }
 }
 
 .asnowmvr23{
-  animation: asnowprssr23 4.5s linear;
+  animation: asnowprssr23 4.5s linear forwards;
   z-index: 59;
 }
 @keyframes asnowprssr23 {
@@ -539,14 +563,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(-350px);
-   top: 120%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 328px;
+    left: 625px;
+    opacity: 1;
   }
 }
 
 .asnowmvr24{
-  animation: asnowprssr24 4.5s linear;
+  animation: asnowprssr24 4.5s linear forwards;
   z-index: 59;
 }
 @keyframes asnowprssr24 {
@@ -560,14 +585,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(-150px);
-   top: 140%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 328px;
+    left: 760px;
+    opacity: 1;
   }
 }
 
 .asnowmvr25{
-animation: asnowprssr25 4.5s linear;
+animation: asnowprssr25 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr25 {
@@ -581,14 +607,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(50px);
-   top: 120%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 328px;
+    left: 895px;
+    opacity: 1;
   }
 }
 
 .asnowmvr26{
-animation: asnowprssr26 4.5s linear;
+animation: asnowprssr26 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr26 {
@@ -602,14 +629,15 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(250px);
-   top: 160%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 328px;
+    left: 1030px;
+    opacity: 1;
   }
 }
 
 .asnowmvr27{
-animation: asnowprssr27 4.5s linear;
+animation: asnowprssr27 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr27 {
@@ -623,14 +651,15 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(450px);
-   top: 120%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 328px;
+    left: 1165px;
+    opacity: 1;
   }
 }
 
 .asnowmvr28{
-  animation: asnowprssr28 4.5s linear;
+  animation: asnowprssr28 4.5s linear forwards;
   z-index: 60;
 }
 @keyframes asnowprssr28 {
@@ -644,14 +673,15 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(650px);
-   top: 140%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 465px;
+    left: 88px;
+    opacity: 1;
   }
 }
 
 .asnowmvr29{
-  animation: asnowprssr29 4.5s linear;
+  animation: asnowprssr29 4.5s linear forwards;
   z-index: 60;
 }
 @keyframes asnowprssr29 {
@@ -665,14 +695,15 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(850px);
-   top: 120%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 465px;
+    left: 221px;
+    opacity: 1;
   }
 }
 
 .asnowmvr30{
-animation: asnowprssr30 4.5s linear;
+animation: asnowprssr30 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr30 {
@@ -686,16 +717,17 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(1050px);
-   top: 160%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 465px;
+    left: 354px;
+    opacity: 1;
   }
 }
 
 
 /*set6*/
 .asnowmvr31{
-animation: asnowprssr31 4.5s linear;
+animation: asnowprssr31 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr31 {
@@ -709,14 +741,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(-750px);
-   top: 120%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 465px;
+    left: 895px;
+    opacity: 1;
   }
 }
 
 .asnowmvr32{
-animation: asnowprssr32 4.5s linear;
+animation: asnowprssr32 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr32 {
@@ -730,14 +763,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(-550px);
-   top: 120%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 465px;
+    left: 1030px;
+    opacity: 1;
   }
 }
 
 .asnowmvr33{
-  animation: asnowprssr33 4.5s linear;
+  animation: asnowprssr33 4.5s linear forwards;
   z-index: 59;
 }
 @keyframes asnowprssr33 {
@@ -751,14 +785,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(-350px);
-   top: 140%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 465px;
+    left: 1165px;
+    opacity: 1;
   }
 }
 
 .asnowmvr34{
-  animation: asnowprssr34 4.5s linear;
+  animation: asnowprssr34 4.5s linear forwards;
   z-index: 59;
 }
 @keyframes asnowprssr34 {
@@ -772,14 +807,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(-150px);
-   top: 120%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 602px;
+    left: 88px;
+    opacity: 1;
   }
 }
 
 .asnowmvr35{
-animation: asnowprssr35 4.5s linear;
+animation: asnowprssr35 4.5s linear forwards;
 z-index: 59;
 }
 @keyframes asnowprssr35 {
@@ -793,14 +829,15 @@ z-index: 59;
     opacity: 0.4;
   }
   100%{
-   transform: scale(0.7,0.7) translateX(50px);
-   top: 160%;
-   opacity: 0.4;
+    transform: scale(0.9,0.9);
+    top: 602px;
+    left: 221px;
+    opacity: 1;
   }
 }
 
 .asnowmvr36{
-animation: asnowprssr36 4.5s linear;
+animation: asnowprssr36 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr36 {
@@ -814,14 +851,15 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(250px);
-   top: 120%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 602px;
+    left: 354px;
+    opacity: 1;
   }
 }
 
 .asnowmvr37{
-animation: asnowprssr37 4.5s linear;
+animation: asnowprssr37 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr37 {
@@ -835,14 +873,15 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(450px);
-   top: 120%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 602px;
+    left: 495px;
+    opacity: 1;
   }
 }
 
 .asnowmvr38{
-  animation: asnowprssr38 4.5s linear;
+  animation: asnowprssr38 4.5s linear forwards;
   z-index: 60;
 }
 @keyframes asnowprssr38 {
@@ -856,14 +895,15 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(650px);
-   top: 140%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 602px;
+    left: 625px;
+    opacity: 1;
   }
 }
 
 .asnowmvr39{
-  animation: asnowprssr39 4.5s linear;
+  animation: asnowprssr39 4.5s linear forwards;
   z-index: 60;
 }
 @keyframes asnowprssr39 {
@@ -877,14 +917,15 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(850px);
-   top: 120%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 602px;
+    left: 760px;
+    opacity: 1;
   }
 }
 
 .asnowmvr40{
-animation: asnowprssr40 4.5s linear;
+animation: asnowprssr40 4.5s linear forwards;
 z-index: 60;
 }
 @keyframes asnowprssr40 {
@@ -898,8 +939,58 @@ z-index: 60;
     opacity: 0.4
   }
   100%{
-   transform: scale(0.7,0.7) translateX(1050px);
-   top: 160%;
-   opacity: 0.4
+    transform: scale(0.9,0.9);
+    top: 602px;
+    left: 895px;
+    opacity: 1;
+  }
+}
+.asnowmvr41{
+animation: asnowprssr41 4.5s linear forwards;
+z-index: 60;
+}
+
+@keyframes asnowprssr41 {
+  7%{
+    transform: scale(0.7,0.7) translateX(0px);
+    top: 40%;
+    opacity: 1;
+  }
+  20%{
+    transform: scale(0.7,0.7) translateX(-650px);
+    top: -20%;
+    opacity: 1;
+  }
+  100%{
+    transform: scale(0.9,0.9);
+    top: 602px;
+    left: 1030px;
+    opacity: 1;
+  }
+}
+
+.asnowmvr42{
+animation: asnowprssr42 4.5s linear forwards;
+z-index: 60;
+}
+@keyframes asnowprssr42 {
+  7%{
+    transform: scale(0.7,0.7) translateX(0px);
+    top: 40%;
+    opacity: 1;
+  }
+  20%{
+    transform: scale(0.7,0.7) translateX(-350px);
+    top: -60%;
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  100%{
+    transform: scale(0.9,0.9);
+    top: 602px;
+    left: 1165px;
+    opacity: 1;
   }
 }
