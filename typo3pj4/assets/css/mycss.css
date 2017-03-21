@@ -1,710 +1,1315 @@
 body{
   margin: 0px;
-  background-color: black;
+  background-color: #2d2d2d;
+  /*background-color: red;*/
+  font-family: 'Open Sans', sans-serif;
+  color: #f0f0f0;
 }
-.frame0{
+/*page1////////////////////////////////////////*/
+#page1{
+
+}
+.frame2{
   position: absolute;
-  height: 700px;
-  top: 50%;
-  margin-top: -350px;
+  left: 50%;
+  margin-left: -512px;
+  height: 680px;
+  width: 1024px;
+  background-color: #2d2d2d;
+  /*overflow: hidden;*/
+}
+.firstfire{
+  position: absolute;
+  top: 180px;
+  left: 62px;
+}
+.firstfire00{
+  background-color: #f46432;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0.06;
+}
+
+.firstfiremv1{
+  animation: firstfireprss 4s forwards;
+}
+.firstfiremv2{
+  animation: firstfireprss 3s forwards;
+}
+.firstfiremv3{
+  animation: firstfireprss 2s forwards;
+}
+@keyframes firstfireprss {
+  0%{
+    transform: scale(0,0);
+  }
+  100%{
+    transform: scale(8,8);
+  }
+}
+
+.p1title{
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  margin-left: -300px;
+  width: 600px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  color: #f0f0f0;
+  line-height: 44px;
+}
+#p1stitle{
+  font-weight: 600;
+  font-size: 34px;
+}
+
+
+
+/*page2///////////////////////////////////////*/
+#page2{
+
+}
+
+
+.frame3{
+  position: absolute;
+  top: 680px;
+  left: 50%;
+  margin-left: -512px;
+  height: 680px;
+  width: 1024px;
+  background-color: #2d2d2d;
+}
+
+
+
+
+
+
+/*page3////////////////////////////////////////*/
+
+.frame1{
+  position: absolute;
+  top: 1360px;
+  left: 50%;
+  margin-left: -512px;
+  height: 680px;
+  width: 1024px;
+  background-color: #2d2d2d;
 }
 .msimg1 {
   position: absolute;
-  width: 12425px;
-  height: 700px;
-  background-image: url(../img/img_0001.png);
+  top: 10px;
+  left: 50%;
+  margin-left: -290px;
+  width: 632px;
+  height: 643px;
+  background-image: url(../img/kmap.png);
   background-size: cover;
-  opacity: 1;
-  z-index: 2;
-}
-
-
-.dc1{
-  position: absolute;
-  width: 737px;
-  height: 438px;
-  top: 196px;
-  left: 1173px;
-  background-image: url(../img/img_0011.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx01{
-  position: absolute;
-  width: 170px;
-  height: 70px;
-  top: 500px;
-  left: 1304px;
-  z-index: 10;
-  /*cursor: pointer;*/
-}
-
-
-.dc2{
-  position: absolute;
-  width: 737px;
-  height: 438px;
-  top: 8px;
-  left: 1206px;
-  background-image: url(../img/img_0012.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx02{
-  position: absolute;
-  width: 240px;
-  height: 57px;
-  top: 117px;
-  left: 1304px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-.dc3{
-  position: absolute;
-  width: 672px;
-  height: 491px;
-  top: 195px;
-  left: 1404px;
-  background-image: url(../img/img_0013.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx03{
-  position: absolute;
-  width: 212px;
-  height: 27px;
-  top: 312px;
-  left: 1664px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-.dc4{
-  position: absolute;
-  width: 715px;
-  height: 604px;
-  top: 7px;
-  left: 1877px;
-  background-image: url(../img/img_0014.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx04{
-  position: absolute;
-  width: 156px;
-  height: 60px;
-  top: 119px;
-  left: 2040px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-.dc5{
-  position: absolute;
-  width: 725px;
-  height: 545px;
-  top: 0px;
-  left: 1905px;
-  background-image: url(../img/img_0015.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx05{
-  position: absolute;
-  width: 430px;
-  height: 30px;
-  top: 312px;
-  left: 2037px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-.dc6{
-  position: absolute;
-  width: 698px;
-  height: 535px;
-  top: -32px;
-  left: 2599px;
-  background-image: url(../img/img_0016.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx06{
-  position: absolute;
-  width: 221px;
-  height: 61px;
-  top: 118px;
-  left: 2685px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-.dc7{
-  position: absolute;
-  width: 773px;
-  height: 535px;
-  top: -33px;
-  left: 3248px;
-  background-image: url(../img/img_0017.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx07{
-  position: absolute;
-  width: 292px;
-  height: 26px;
-  top: 118px;
-  left: 3332px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-.dc8{
-  position: absolute;
-  width: 773px;
-  height: 629px;
-  top: 13px;
-  left: 2650px;
-  background-image: url(../img/img_0018.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx08{
-  position: absolute;
-  width: 189px;
-  height: 26px;
-  top: 312px;
-  left: 2683px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-.dc9{
-  position: absolute;
-  width: 860px;
-  height: 829px;
-  top: -49px;
-  left: 3908px;
-  background-image: url(../img/img_0019.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx09{
-  position: absolute;
-  width: 342px;
-  height: 26px;
-  top: 312px;
-  left: 3965px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-.dc10{
-  position: absolute;
-  width: 925px;
-  height: 421px;
-  top: 103px;
-  left: 4955px;
-  background-image: url(../img/img_0020.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx10{
-  position: absolute;
-  width: 242px;
-  height: 26px;
-  top: 312px;
-  left: 4987px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-.dc11{
-  position: absolute;
-  width: 752px;
-  height: 754px;
-  top: 7px;
-  left: 6001px;
-  background-image: url(../img/img_0021.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx11{
-  position: absolute;
-  width: 239px;
-  height: 26px;
-  top: 312px;
-  left: 6026px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-.dc12{
-  position: absolute;
-  width: 845px;
-  height: 639px;
-  top: -49px;
-  left: 6774px;
-  background-image: url(../img/img_0022.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx12{
-  position: absolute;
-  width: 229px;
-  height: 26px;
-  top: 312px;
-  left: 6835px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-.dc13{
-  position: absolute;
-  width: 878px;
-  height: 692px;
-  top: -7px;
-  left: 7731px;
-  background-image: url(../img/img_0023.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx13{
-  position: absolute;
-  width: 316px;
-  height: 26px;
-  top: 312px;
-  left: 7838px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-.dc14{
-  position: absolute;
-  width: 860px;
-  height: 716px;
-  top: 32px;
-  left: 8459px;
-  background-image: url(../img/img_0024.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx14{
-  position: absolute;
-  width: 340px;
-  height: 26px;
-  top: 312px;
-  left: 8521px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-.dc15{
-  position: absolute;
-  width: 792px;
-  height: 483px;
-  top: 76px;
-  left: 9097px;
-  background-image: url(../img/img_0025.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx15{
-  position: absolute;
-  width: 351px;
-  height: 26px;
-  top: 102px;
-  left: 9159px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-.dc16{
-  position: absolute;
-  width: 892px;
-  height: 453px;
-  top: 182px;
-  left: 9116px;
-  background-image: url(../img/img_0026.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx16{
-  position: absolute;
-  width: 391px;
-  height: 26px;
-  top: 502px;
-  left: 9159px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-.dc17{
-  position: absolute;
-  width: 780px;
-  height: 384px;
-  top: 198px;
-  left: 11325px;
-  background-image: url(../img/img_0027.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx17{
-  position: absolute;
-  width: 200px;
-  height: 26px;
-  top: 501px;
-  left: 11545px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-.dc18{
-  position: absolute;
-  width: 474px;
-  height: 273px;
-  top: 62px;
-  left: 9780px;
-  background-image: url(../img/img_0028.png);
-  background-size: cover;
-  z-index: 8;
-  display: none;
-  opacity: 0;
-}
-#boxxx18{
-  position: absolute;
-  width: 351px;
-  height: 26px;
-  top: 102px;
-  left: 9833px;
-  z-index: 10;
-  /*cursor: pointer;*/
-  /*background-color: red;*/
-}
-
-#boxxx19{
-  position: absolute;
-  width: 91px;
-  height: 48px;
-  top: 388px;
-  left: 3145px;
-  z-index: 10;
-  /*cursor: pointer;
-  background-color: red;*/
-}
-#boxxx20{
-  position: absolute;
-  width: 371px;
-  height: 26px;
-  top: 502px;
-  left: 9833px;
-  z-index: 10;
-  /*cursor: pointer;
-  background-color: red;*/
-}
-#boxxx21{
-  position: absolute;
-  width: 288px;
-  height: 26px;
-  top: 502px;
-  left: 10439px;
-  z-index: 10;
-  /*cursor: pointer;
-  background-color: red;*/
-}
-
-#boxxx22{
-  position: absolute;
-  width: 375px;
-  height: 26px;
-  top: 502px;
-  left: 10933px;
-  z-index: 10;
-  /*cursor: pointer;
-  background-color: red;*/
-}
-
-#boxxx23{
-  position: absolute;
-  width: 118px;
-  height: 26px;
-  top: 292px;
-  left: 11879px;
-  z-index: 10;
-  /*cursor: pointer;
-  background-color: red;*/
-}
-
-#boxxx24{
-  position: absolute;
-  width: 128px;
-  height: 46px;
-  top: 172px;
-  left: 12129px;
-  z-index: 10;
-  /*cursor: pointer;
-  background-color: red;*/
-}
-
-#boxxx25{
-  position: absolute;
-  width: 128px;
-  height: 56px;
-  top: 372px;
-  left: 12129px;
-  z-index: 10;
-  /*cursor: pointer;
-  background-color: red;*/
-}
-
-#mvpoint1{
-  position: absolute;
-  width: 111px;
-  height: 46px;
-  top: 502px;
-  left: 11879px;
-  z-index: 10;
-  cursor: pointer;
-  /*background-color: red;*/
-}
-#mvpoint2{
-  position: absolute;
-  width: 111px;
-  height: 46px;
-  top: 592px;
-  left: 1940px;
-  z-index: 10;
-  /*background-color: red;*/
-}
-.op07{
   opacity: 0.3;
 }
-.op07mv{
-  animation: op07prss forwards 1s;
-}
-@keyframes op07prss {
- 0%{
-   opacity: 1;
- }
- 100%{
-   opacity: 0.1;
- }
-}
-.appear{
-  display: block;
-  opacity: 0;
-}
-.appearmv{
-  display: block;
-  opacity: 0;
-  animation: appearprss forwards 1s;
-}
-@keyframes appearprss {
- 0%{
-   opacity: 0;
- }
- 100%{
-   opacity: 1;
- }
-}
-.appearmv2{
-  animation: appearprss2 infinite 2s;
-}
-@keyframes appearprss2 {
- 0%{
-   background-color: #ece3dc;
-   opacity: 0.4;
- }
- 50%{
-   opacity: 1;
- }
- 100%{
-   background-color: #ece3dc;
-   opacity: 0.4;
- }
-}
 
-.nav00{
-  z-index: 20;
-  /*background-color: red;*/
-  position: fixed;
-  bottom: 0%;
-  left: 50%;
-  margin-left: -50px;
-  width: 100px;
-  height: 100px;
-}
-#navmap{
+
+/*timline*/
+.timeline{
   position: absolute;
-  left: 50%;
-  margin-left: -574px;
-  width: 1150px;
-  height: 72px;
-  background-image: url(../img/img_0004.png);
-  background-size: cover;
-  border: 1px solid #141414;
-  border-radius: 5%;
-  opacity: 1;
-  transform: scale(0.9,0.9);
+  top: 60px;
+  left: 0px;
+}
+.longline{
+  position: absolute;
+  left: 75px;
+  top: 53px;
+  width: 1px;
+  height: 420px;
+  background-color: white;
+  transform-origin: top;
+  transform: scale(1,0);
+}
+.longlinemv{
+  animation: longlineprss 2s forwards;
+}
+@keyframes longlineprss {
+  0%{
+    transform: scale(1,0);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+.timebox{
+  position: absolute;
+  left: 10px;
+  top: 45px;
+  width: 60px;
+  line-height: 21px;
+  font-size: 12px;
+  color: #f0f0f0;
+  text-align: right;
 }
 
-.dots{
-  width: 6px;
-  height: 6px;
+
+/*numbers*/
+.n01,.n02,.n03,.n04,.n05,.n06,
+.n07,.n08,.n09,.n10,.n11,.n12,
+.n13,.n14,.n15,.n16,.n17,.n18,
+.n19,.n20,.n21{
+  display: none;
+}
+
+.sum1{
+  position: absolute;
+  top: 500px;
+  left: 820px;
+  line-height: 18px;
+}
+.totalwords{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.totaln0{
+  font-size: 18px;
+  color: #f46432;
+}
+
+
+
+/*fires*/
+.fireintro{
+  background-color: #f46432;
   border-radius: 50%;
-  background-color: #0e3b62;
   position: absolute;
-  opacity: 0.6;
 }
 
-.dotsps1{
-  top: 15px;
-  left: -453px;
+.fireintromv{
+  opacity: 0.08;
+  animation: fireintroprss 2.5s forwards;
 }
-.dotsps2{
+@keyframes fireintroprss {
+  0%{
+    transform: scale(0,0);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+
+.fire00{
+  background-color: #f46432;
+  opacity: 0.5;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.firea,.fireb,.firec,.fired,.firee,
+.firecha6,.firecha7,.firecha8,.firecha9,.firecha10,
+.firecha11,.firecha12,.firecha13,.firecha14,.firecha15,
+.firecha16,.firecha17,.firecha18,.firecha19,
+.firecha20,.firecha21{
+  display: none;
+}
+
+.firea01{
+  left: 438px;
+  top: 132px;
+  width: 23px;
+  height: 23px;
+}
+
+.fireb01{
+  left: 426px;
+  top: 121px;
+  width: 46px;
+  height: 46px;
+}
+
+.firec01{
+  left: 397px;
+  top: 92px;
+  width: 105px;
+  height: 105px;
+}
+
+
+
+/*cha4*/
+.fired01{
+  left: 414px;
+  top: 109px;
+  width: 72px;
+  height: 72px;
+}
+.fired02{
+  /*부산*/
+  left: 627px;
+  top: 416px;
+  width: 32px;
+  height: 32px;
+}
+.fired03{
+  /*광주*/
+  left: 425px;
+  top: 406px;
+  width: 32px;
+  height: 32px;
+}
+.fired04{
+  /*대전*/
+  left: 480px;
+  top: 278px;
+  width: 23px;
+  height: 23px;
+}
+.fired05{
+  /*대구*/
+  left: 591px;
+  top: 328px;
+  width: 23px;
+  height: 23px;
+}
+.fired06{
+  /*수원*/
+  left: 440px;
+  top: 165px;
+  width: 23px;
+  height: 23px;
+}
+.fired07{
+  /*춘천*/
+  left: 512px;
+  top: 96px;
+  width: 18px;
+  height: 18px;
+}
+.fired08{
+  /*원주*/
+  left: 532px;
+  top: 157px;
+  width: 18px;
+  height: 18px;
+}
+.fired09{
+  /*속초*/
+  left: 593px;
+  top: 57px;
+  width: 18px;
+  height: 18px;
+}
+.fired10{
+  /*강릉*/
+  left: 623px;
+  top: 110px;
+  width: 18px;
+  height: 18px;
+}
+.fired11{
+  /*포항*/
+  left: 508px;
+  top: 205px;
+  width: 18px;
+  height: 18px;
+}
+.fired12{
+  left: 668px;
+  top: 313px;
+  width: 18px;
+  height: 18px;
+}
+.fired13{
+  left: 608px;
+  top: 215px;
+  width: 14px;
+  height: 14px;
+}
+.fired14{
+  left: 670px;
+  top: 377px;
+  width: 18px;
+  height: 18px;
+}
+.fired15{
+  left: 601px;
+  top: 417px;
+  width: 18px;
+  height: 18px;
+}
+.fired16{
+  /*여수*/
+  left: 515px;
+  top: 468px;
+  width: 14px;
+  height: 14px;
+}
+.fired17{
+  /*제주*/
+  left: 402px;
+  top: 618px;
+  width: 14px;
+  height: 14px;
+}
+.fired18{
+  /*전주*/
+  left: 455px;
+  top: 336px;
+  width: 18px;
+  height: 18px;
+}
+.fired19{
+  /*cheonju*/
+  left: 487px;
+  top: 238px;
+  width: 23px;
+  height: 23px;
+}
+.fired20{
+  /*화성*/
+  left: 424px;
+  top: 171px;
+  width: 18px;
+  height: 18px;
+}
+.fired21{
+  /*목포*/
+  left: 385px;
+  top: 460px;
+  width: 14px;
+  height: 14px;
+}
+
+/*cha5---------------*/
+.firee01{
+  left: 386px;
+  top: 81px;
+  width: 125px;
+  height: 125px;
+}
+.firee02{
+  /*busan*/
+  left: 623px;
+  top: 412px;
+  width: 40px;
+  height: 40px;
+}
+.firee03{
+    /*광주*/
+  left: 421px;
+  top: 402px;
+  width: 40px;
+  height: 40px;
+}
+.firee04{
+    /*대구*/
+  left: 594px;
+  top: 331px;
+  width: 18px;
+  height: 18px;
+}
+.firee05{
+    /*춘천*/
+  left: 514px;
+  top: 98px;
+  width: 14px;
+  height: 14px;
+}
+.firee06{
+    /*울산*/
+  left: 663px;
+  top: 370px;
+  width: 14px;
+  height: 14px;
+}
+.firee07{
+    /*창원*/
+  left: 592px;
+  top: 408px;
+  width: 18px;
+  height: 18px;
+}
+.firee08{
+  /*여수*/
+  left: 515px;
+  top: 468px;
+  width: 14px;
+  height: 14px;
+}
+.firee09{
+  /*제주*/
+  left: 402px;
+  top: 618px;
+  width: 14px;
+  height: 14px;
+}
+
+.firecha601{
+  left: 378px;
+  top: 73px;
+  width: 142px;
+  height: 142px;
+}
+.firecha602{
+  /*busan*/
+  left: 620px;
+  top: 409px;
+  width: 46px;
+  height: 46px;
+}
+.firecha603{
+  /*광주*/
+  left: 421px;
+  top: 402px;
+  width: 40px;
+  height: 40px;
+}
+.firecha604{
+  /*대전*/
+  left: 480px;
+  top: 278px;
+  width: 23px;
+  height: 23px;
+}
+.firecha605{
+  /*대gu*/
+  left: 591px;
+  top: 328px;
+  width: 23px;
+  height: 23px;
+}
+.firecha606{
+  /*춘천*/
+  left: 512px;
+  top: 96px;
+  width: 18px;
+  height: 18px;
+}
+.firecha607{
+  /*청주*/
+  left: 487px;
+  top: 238px;
+  width: 23px;
+  height: 23px;
+}
+.firecha608{
+  /*포항*/
+  left: 508px;
+  top: 205px;
+  width: 18px;
+  height: 18px;
+}
+.firecha609{
+  /*울산*/
+  left: 661px;
+  top: 368px;
+  width: 18px;
+  height: 18px;
+}
+.firecha610{
+  /*창원*/
+  left: 592px;
+  top: 408px;
+  width: 18px;
+  height: 18px;
+}
+.firecha611{
+  /*목포*/
+  left: 385px;
+  top: 460px;
+  width: 14px;
+  height: 14px;
+}
+.firecha611{
+  /*전주*/
+  left: 455px;
+  top: 336px;
+  width: 18px;
+  height: 18px;
+}
+.firecha612{
+  /*제주*/
+  left: 402px;
+  top: 618px;
+  width: 14px;
+  height: 14px;
+}
+
+.firecha701{
+  left: 404px;
+  top: 99px;
+  width: 92px;
+  height: 92px;
+}
+.firecha702{
+  /*인천*/
+  left: 408px;
+  top: 146px;
+  width: 14px;
+  height: 14px;
+}
+.firecha703{
+  /*부산*/
+  left: 627px;
+  top: 416px;
+  width: 32px;
+  height: 32px;
+}
+.firecha704{
+    /*광주*/
+  left: 429px;
+  top: 410px;
+  width: 23px;
+  height: 23px;
+}
+.firecha705{
+  /*대전*/
+  left: 484px;
+  top: 282px;
+  width: 14px;
+  height: 14px;
+}
+.firecha706{
+  /*대구*/
+  left: 596px;
+  top: 333px;
+  width: 14px;
+  height: 14px;
+}
+.firecha707{
+  /*춘천*/
+  left: 514px;
+  top: 98px;
+  width: 14px;
+  height: 14px;
+}
+.firecha708{
+  /*속초*/
+  left: 595px;
+  top: 59px;
+  width: 14px;
+  height: 14px;
+}
+.firecha709{
+  /*강릉*/
+  left: 625px;
+  top: 112px;
+  width: 14px;
+  height: 14px;
+}
+.firecha710{
+  /*원주*/
+  left: 534px;
+  top: 159px;
+  width: 14px;
+  height: 14px;
+}
+.firecha711{
+  /*청주*/
+  left: 491px;
+  top: 242px;
+  width: 14px;
+  height: 14px;
+}
+.firecha712{
+    /*울산*/
+  left: 663px;
+  top: 370px;
+  width: 14px;
+  height: 14px;
+}
+.firecha713{
+    /*창원*/
+  left: 594px;
+  top: 410px;
+  width: 14px;
+  height: 14px;
+}
+.firecha714{
+  /*여수*/
+  left: 515px;
+  top: 468px;
+  width: 14px;
+  height: 14px;
+}
+.firecha715{
+  /*제주*/
+  left: 402px;
+  top: 618px;
+  width: 14px;
+  height: 14px;
+}
+
+
+
+.firecha801{
+  top: 104px;
+  left: 409px;
+  width: 82px;
+  height: 82px;
+}
+.firecha802{
+  /*부산*/
+  left: 636px;
+  top: 425px;
+  width: 14px;
+  height: 14px;
+}
+.firecha803{
+  /*광주*/
+  left: 429px;
+  top: 410px;
+  width: 23px;
+  height: 23px;
+}
+.firecha804{
+  /*대전*/
+  left: 484px;
+  top: 282px;
+  width: 14px;
+  height: 14px;
+}
+.firecha805{
+  /*대구*/
+  left: 596px;
+  top: 333px;
+  width: 14px;
+  height: 14px;
+}
+.firecha806{
+  /*춘천*/
+  left: 514px;
+  top: 98px;
+  width: 14px;
+  height: 14px;
+}
+.firecha807{
+  /*원주*/
+  left: 534px;
+  top: 159px;
+  width: 14px;
+  height: 14px;
+}
+.firecha808{
+  /*청주*/
+  left: 491px;
+  top: 242px;
+  width: 14px;
+  height: 14px;
+}
+.firecha809{
+  /*울산*/
+  left: 663px;
+  top: 370px;
+  width: 14px;
+  height: 14px;
+}
+.firecha810{
+    /*창원*/
+  left: 594px;
+  top: 410px;
+  width: 14px;
+  height: 14px;
+}
+.firecha811{
+  /*목포*/
+  left: 385px;
+  top: 460px;
+  width: 14px;
+  height: 14px;
+}
+.firecha812{
+  /*전주*/
+  left: 455px;
+  top: 336px;
+  width: 18px;
+  height: 18px;
+}
+.firecha813{
+  /*제주*/
+  left: 402px;
+  top: 618px;
+  width: 14px;
+  height: 14px;
+}
+
+.firecha901{
+  left: 410px;
+  top: 105px;
+  width: 80px;
+  height: 80px;
+}
+
+.firecha902{
+  /*부산*/
+  left: 636px;
+  top: 425px;
+  width: 14px;
+  height: 14px;
+}
+.firecha903{
+  /*울산*/
+  left: 663px;
+  top: 370px;
+  width: 14px;
+  height: 14px;
+}
+
+
+.firecha1001{
+  left: 399px;
+  top: 94px;
+  width: 102px;
+  height: 102px;
+}
+.firecha1002{
+  left: 434px;
+  top: 415px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1003{
+  /*대구*/
+  left: 596px;
+  top: 333px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1004{
+  /*여수*/
+  left: 515px;
+  top: 468px;
+  width: 14px;
+  height: 14px;
+}
+
+.firecha1101{
+  left: 410px;
+  top: 105px;
+  width: 80px;
+  height: 80px;
+}
+.firecha1102{
+  /*부산*/
+  left: 636px;
+  top: 425px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1103{
+  /*광주*/
+  left: 429px;
+  top: 410px;
+  width: 23px;
+  height: 23px;
+}
+.firecha1104{
+  /*대전*/
+  left: 484px;
+  top: 282px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1105{
+  /*대구*/
+  left: 596px;
+  top: 333px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1106{
+  /*춘천*/
+  left: 514px;
+  top: 98px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1107{
+  /*강릉*/
+  left: 625px;
+  top: 112px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1108{
+  /*원주*/
+  left: 534px;
+  top: 159px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1109{
+  /*청주*/
+  left: 491px;
+  top: 242px;
+  width: 14px;
+  height: 14px;
+
+}
+.firecha1114{
+  /*안동*/
+  left: 615px;
+  top: 258px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1110{
+    /*울산*/
+  left: 663px;
+  top: 370px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1111{
+    /*창원*/
+  left: 594px;
+  top: 410px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1112{
+    /*군포*/
+  left: 416px;
+  top: 318px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1113{
+  /*제주*/
+  left: 402px;
+  top: 618px;
+  width: 14px;
+  height: 14px;
+}
+
+
+.firecha1201{
+  left: 430px;
+  top: 125px;
+  width: 40px;
+  height: 40px;
+}
+.firecha1202{
+  /*대구*/
+  left: 596px;
+  top: 333px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1203{
+  /*울산*/
+  left: 663px;
+  top: 370px;
+  width: 14px;
+  height: 14px;
+}
+
+.firecha1301{
+  left: 422px;
+  top: 117px;
+  width: 56px;
+  height: 56px;
+}
+.firecha1302{
+  /*부산*/
+  left: 636px;
+  top: 425px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1303{
+  /*대구*/
+  left: 596px;
+  top: 333px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1304{
+  /*원주*/
+  left: 534px;
+  top: 159px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1305{
+    /*울산*/
+  left: 663px;
+  top: 370px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1306{
+  /*전주*/
+  left: 455px;
+  top: 336px;
+  width: 18px;
+  height: 18px;
+}
+.firecha1307{
+  /*제주*/
+  left: 402px;
+  top: 618px;
+  width: 14px;
+  height: 14px;
+}
+
+.firecha1501{
+  left: 416px;
+  top: 111px;
+  width: 68px;
+  height: 68px;
+}
+.firecha1502{
+  /*부산*/
+  left: 636px;
+  top: 425px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1503{
+  /*광주*/
+  left: 429px;
+  top: 410px;
+  width: 23px;
+  height: 23px;
+}
+.firecha1504{
+  /*대구*/
+  left: 596px;
+  top: 333px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1505{
+  /*원주*/
+  left: 534px;
+  top: 159px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1506{
+  /*울산*/
+  left: 663px;
+  top: 370px;
+  width: 14px;
+  height: 14px;
+}
+
+.firecha1601{
+  left: 406px;
+  top: 101px;
+  width: 88px;
+  height: 88px;
+}
+.firecha1602{
+  /*부산*/
+  left: 636px;
+  top: 425px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1603{
+    /*울산*/
+  left: 663px;
+  top: 370px;
+  width: 14px;
+  height: 14px;
+}
+
+
+.firecha1701{
+  left: 404px;
+  top: 99px;
+  width: 92px;
+  height: 92px;
+}
+.firecha1702{
+  /*부산*/
+  left: 636px;
+  top: 425px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1703{
+  /*춘천*/
+  left: 514px;
+  top: 98px;
+  width: 14px;
+  height: 14px;
+}
+
+.firecha1801{
+  left: 398px;
+  top: 93px;
+  width: 104px;
+  height: 104px;
+}
+.firecha1802{
+  /*부산*/
+  left: 636px;
+  top: 425px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1803{
+  /*광주*/
+  left: 429px;
+  top: 410px;
+  width: 23px;
+  height: 23px;
+}
+.firecha1804{
+  /*대구*/
+  left: 596px;
+  top: 333px;
+  width: 14px;
+  height: 14px;
+}
+.firecha1805{
+    /*창원*/
+  left: 594px;
+  top: 410px;
+  width: 14px;
+  height: 14px;
+}
+
+.firecha1901{
+  left: 422px;
+  top: 117px;
+  width: 56px;
+  height: 56px;
+}
+
+.firecha2001{
+  left: 399px;
+  top: 94px;
+  width: 102px;
+  height: 102px;
+}
+.firecha2002{
+  /*부산*/
+  left: 636px;
+  top: 425px;
+  width: 14px;
+  height: 14px;
+}
+.firecha2003{
+  /*광주*/
+  left: 429px;
+  top: 410px;
+  width: 23px;
+  height: 23px;
+}
+.firecha2004{
+    /*창원*/
+  left: 594px;
+  top: 410px;
+  width: 14px;
+  height: 14px;
+}
+.firecha2005{
+  /*제주*/
+  left: 402px;
+  top: 618px;
+  width: 14px;
+  height: 14px;
+}
+.firecha2101{
+  left: 407px;
+  top: 102px;
+  width: 86px;
+  height: 86px;
+}
+
+
+
+.firemv{
+  display: block;
+  animation: fireprss 0.7s forwards;
+  transform-origin: center;
+  transform: scale(0,0);
+}
+
+@keyframes fireprss {
+  0%{
+    transform: scale(0,0);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+
+/*mapdots*/
+
+.alldot{
+  position: absolute;
+  top: 4px;
+}
+.dot0{
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  left: 73px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+.cha0,.dot0{
+  cursor: pointer;
+}
+.orangedot{
+  background-color: #f46432;
+}
+.orangetext{
+  color: #f46432;
+}
+.dot1{
+  top: 49px;
+}
+
+.dot2{
+  top: 70px;
+}
+.dot3{
+  top: 91px;
+}
+.dot4{
+  top: 112px;
+}
+.dot5{
+  top: 133px;
+}
+.dot6{
+  top: 154px;
+}
+.dot7{
+  top: 175px;
+}
+.dot8{
+  top: 196px;
+}
+.dot9{
+  top: 217px;
+}
+.dot10{
+  top: 238px;
+}
+.dot11{
+  top: 259px;
+}
+.dot12{
+  top: 280px;
+}
+.dot13{
+  top: 301px;
+}
+.dot14{
+  top: 322px;
+}
+.dot15{
+  top: 343px;
+}
+.dot16{
+  top: 364px;
+}
+.dot17{
+  top: 385px;
+}
+.dot18{
+  top: 406px;
+}
+.dot19{
+  top: 427px;
+}
+.dot20{
+  top: 448px;
+}
+.dot21{
+  top: 469px;
+}
+.forclickbox{
+  position: absolute;
+  top: -8px;
+  left: -54px;
+  width: 59px;
+  height: 21px;
+  background-color: ##2d2d2d;
+  opacity: 0.01;
+  cursor: pointer;
+}
+
+
+
+.boxdot0{
+  width: 120px;
+  height: 36px;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  line-height: 11px;
+}
+.mdot0{
+  position: absolute;
+  left: 58px;
+  top: 16px;
+  width: 4px;
+  height: 4px;
+  background-color: #f0f0f0;
+}
+
+.seoul{
+  left: 389px;
+  top: 125px;
+}
+
+.chuncheon{
+  left: 461px;
+  top: 87px;
+}
+
+.sokcho{
+  left: 542px;
   top: 48px;
-  left: -450px;
-}
-.dotsps3{
-  top: 32px;
-  left: -422px;
-}
-.dotsps4{
-  top: 32px;
-  left: -383px;
-}
-.dotsps5{
-  top: 14px;
-  left: -373px;
-}
-.dotsps6{
-  top: 14px;
-  left: -320px;
-}
-.dotsps7{
-  top: 32px;
-  left: -317px;
-}
-.dotsps8{
-  top: 14px;
-  left: -257px;
 }
 
-  .dotsps9{
-    top: 43px;
-    left: -280px;
-  }
-  .dotsps10{
-    top: 32px;
-    left: -191px;
-  }
-  .dotsps11{
-    top: 32px;
-    left: -102px;
-  }
-  .dotsps12{
-    top: 32px;
-    left: -7px;
-  }
-  .dotsps13{
-    top: 32px;
-    left: 68px;
-  }
-  .dotsps14{
-    top: 32px;
-    left: 164px;
-  }
-  .dotsps15{
-    top: 32px;
-    left: 217px;
-  }
-  .dotsps16{
-    top: 11px;
-    left: 289px;
-  }
+.gangneung{
+  left: 572px;
+  top: 101px;
+}
 
-  .dotsps17{
-    top: 51px;
-    left: 289px;
-  }
-  .dotsps18{
-    top: 13px;
-    left: 337px;
-  }
-  .dotsps19{
-    top: 50px;
-    left: 346px;
-  }
-  .dotsps20{
-    top: 50px;
-    left: 405px;
-  }
-  .dotsps21{
-    top: 50px;
-    left: 456px;
-  }
-  .dotsps22{
-    top: 50px;
-    left: 498px;
-  }
-  .dotsps23{
-    top: 30px;
-    left: 527px;
-  }
-  .dotsps24{
-    top: 50px;
-    left: 527px;
-  }
+.wonju{
+  left: 481px;
+  top: 148px;
+}
 
-  .dotsps25{
-    top: 19px;
-    left: 547px;
-  }
-  .dotsps26{
-    top: 37px;
-    left: 546px;
-  }
+.cheonju{
+  left: 439px;
+  top: 232px;
+}
+
+.daejeon{
+  left: 431px;
+  top: 272px;
+}
+
+.jeonju{
+  left: 404px;
+  top: 327px;
+}
+
+.gwangju{
+  left: 381px;
+  top: 404px;
+}
+
+.busan{
+  left: 583px;
+  top: 414px;
+}
+
+.daegu{
+  left: 543px;
+  top: 322px;
+}
+
+.jeju{
+  left: 349px;
+  top: 607px;
+}
