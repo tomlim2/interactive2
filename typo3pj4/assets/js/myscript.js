@@ -237,6 +237,7 @@ $('.count').each(function () {
           $(".cha6").addClass('orangetext');
           $(".n00").addClass('fadeout');
           $(".n06").addClass('fadein');
+          $(".p4tb1").fadeIn('fast');
 
           $(".fireintromv").addClass('fadeout');
           $(".firecha6").addClass('firemv');
@@ -248,6 +249,7 @@ $('.count').each(function () {
           $(".wonju").addClass('fadeout');
         });
         $(".cha6,.dot6").mouseleave(function() {
+          $(".p4tb1").fadeOut('fast');
           $(".dot6").removeClass('orangedot');
           $(".cha6").removeClass('orangetext');
           $(".n00").removeClass('fadeout');
@@ -270,6 +272,7 @@ $('.count').each(function () {
           $(".cha7").addClass('orangetext');
           $(".n00").addClass('fadeout');
           $(".n07").addClass('fadein');
+          $(".p4tb2").fadeIn('fast');
 
           $(".fireintromv").addClass('fadeout');
           $(".firecha7").addClass('firemv');
@@ -283,6 +286,7 @@ $('.count').each(function () {
           $(".cha7").removeClass('orangetext');
           $(".n00").removeClass('fadeout');
           $(".n07").removeClass('fadein');
+          $(".p4tb2").fadeOut('fast');
 
           $(".fireintromv").removeClass('fadeout');
           $(".firecha7").removeClass('firemv');
@@ -377,6 +381,7 @@ $(".cha10,.dot10").mouseenter(function() {
   $(".n00").addClass('fadeout');
   $(".n10").addClass('fadein');
   $(".pplnm0").addClass('count');
+  $(".p4tb3").fadeIn('fast');
 
   $(".fireintromv").addClass('fadeout');
   $(".firecha10").addClass('firemv');
@@ -396,6 +401,7 @@ $(".cha10,.dot10").mouseleave(function() {
   $(".cha10").removeClass('orangetext');
   $(".n00").removeClass('fadeout');
   $(".n10").removeClass('fadein');
+  $(".p4tb3").fadeOut('fast');
 
   $(".fireintromv").removeClass('fadeout');
   $(".firecha10").removeClass('firemv');
@@ -532,8 +538,9 @@ $(".cha10,.dot10").mouseleave(function() {
 
 // 14차 집회x---------------------
     $(".cha14,.dot14").mouseenter(function() {
-      $(".dot14").addClass('orangedot');
-      $(".cha14").addClass('orangetext');
+      $(".dot14").addClass('lunaback');
+      $(".cha14").addClass('lunatext');
+      $(".p4tb4").fadeIn('fast');
 
       $(".n14").addClass('fadein');
       $(".n00").addClass('fadeout');
@@ -541,8 +548,9 @@ $(".cha10,.dot10").mouseleave(function() {
       $(".fireintromv").addClass('fadeout');
     });
     $(".cha14,.dot14").mouseleave(function() {
-      $(".dot14").removeClass('orangedot');
-      $(".cha14").removeClass('orangetext');
+      $(".dot14").removeClass('lunaback');
+      $(".cha14").removeClass('lunatext');
+      $(".p4tb4").fadeOut('fast');
 
       $(".n14").removeClass('fadein');
       $(".n00").removeClass('fadeout');
@@ -810,6 +818,7 @@ $(".cha21,.dot21").mouseenter(function() {
   $(".n00").addClass('fadeout');
   $(".n21").addClass('fadein');
   $(".pplnm0").addClass('count');
+  $(".p4tb5").fadeIn('fast');
 
   $(".fireintromv").addClass('fadeout');
   $(".firecha21").addClass('firemv');
@@ -832,6 +841,7 @@ $(".cha21,.dot21").mouseleave(function() {
   $(".n00").removeClass('fadeout');
   $(".n21").removeClass('fadein');
   $(".pplnm0").removeClass('count');
+  $(".p4tb5").fadeOut('fast');
 
   $(".fireintromv").removeClass('fadeout');
   $(".firecha21").removeClass('firemv');
@@ -852,15 +862,33 @@ $(".cha21,.dot21").mouseleave(function() {
 
 
 
+  var vip2= 300; //스크롤 위치값
+  $(window).scroll(function(){
+    var num=$(window).scrollTop();
+      if(num>vip2){
+        $(".p2wholetext").fadeIn();
+      }else{
+        $(".p2wholetext").fadeOut();
+      }
+    });
+
+    var vip3= 870; //스크롤 위치값
+    $(window).scroll(function(){
+      var num=$(window).scrollTop();
+        if(num>vip3){
+          $(".p3fpart").fadeIn();
+        }else{
+          $(".p3fpart").fadeOut();
+        }
+      });
 
 
-
-  var ho= 600; //스크롤 위치값
+  var vip4= 1600; //스크롤 위치값
 	$(window).scroll(function(){
-		var num=$(window).scrollLeft();
-			if(num>ho){
-				$(".nav00").fadeIn();
+		var num=$(window).scrollTop();
+			if(num>vip4){
+				$(".timeline,.introfire,.sum1").fadeIn();
 			}else{
-				$(".nav00").fadeOut();
+				$(".timeline,.introfire,.sum1").fadeOut();
 			}
 		});

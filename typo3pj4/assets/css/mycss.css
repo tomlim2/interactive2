@@ -7,7 +7,6 @@ body{
 }
 /*page1////////////////////////////////////////*/
 #page1{
-
 }
 .frame2{
   position: absolute;
@@ -28,16 +27,20 @@ body{
   border-radius: 50%;
   position: absolute;
   opacity: 0.06;
+  transform: scale(0,0);
 }
 
 .firstfiremv1{
   animation: firstfireprss 4s forwards;
+  animation-delay: 2.8s;
 }
 .firstfiremv2{
   animation: firstfireprss 3s forwards;
+  animation-delay: 2.8s;
 }
 .firstfiremv3{
   animation: firstfireprss 2s forwards;
+  animation-delay: 2.8s;
 }
 @keyframes firstfireprss {
   0%{
@@ -50,7 +53,7 @@ body{
 
 .p1title{
   position: absolute;
-  top: 280px;
+  top: 290px;
   left: 50%;
   margin-left: -300px;
   width: 600px;
@@ -58,14 +61,47 @@ body{
   font-weight: 800;
   font-size: 40px;
   color: #f0f0f0;
-  line-height: 44px;
+  line-height: 50px;
 }
 #p1stitle{
   font-weight: 600;
   font-size: 34px;
 }
+.p1titlemv{
+  animation: p1titleprss 1s forwards;
+  animation-delay: 2s;
+  opacity: 0;
+}
+@keyframes p1titleprss {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 
-
+.candleline0{
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+  top: 405px;
+  width: 2px;
+  height: 485px;
+  background-color: #f0f0f0;
+}
+.candlelinemv{
+  transform-origin: bottom;
+  animation: candlelineprss 2.5s forwards;
+}
+@keyframes candlelineprss {
+  0%{
+    transform: scale(1,0);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
 
 /*page2///////////////////////////////////////*/
 #page2{
@@ -83,16 +119,162 @@ body{
   background-color: #2d2d2d;
 }
 
+.righttextbox{
+  position: absolute;
+  left: 415px;
+  top: 230px;
+  width: 465px;
+  font-size: 14px;
+  line-height: 18px;
+}
 
+.lefttextbox1{
+  position: absolute;
+  left: 150px;
+  top: 228px;
+  width: 244px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  line-height: 22px;
+}
 
+#sptext1{
+  font-size: 24px;
+  color: #f46432;
+}
 
+.lefttextbox2{
+  position: absolute;
+  left: 150px;
+  top: 290px;
+  width: 244px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  line-height: 22px;
+}
 
+#sptext2{
+  font-size: 24px;
+}
 
 /*page3////////////////////////////////////////*/
+.frame4{
+  position: absolute;
+  top: 1360px;
+  left: 50%;
+  margin-left: -512px;
+  height: 680px;
+  width: 1024px;
+  background-color: #2d2d2d;
+  font-size: 12px;
+  font-weight: 800;
+}
+.p3allmap{
+  position: absolute;
+  top: -60px;
+}
+.p3map{
+  position: absolute;
+  left: 3px;
+  top: 70px;
+  width: 1024px;
+  height: 474px;
+  background-image: url(../img/p3map.png);
+  background-size: cover;
+  opacity: 0.3;
+}
+.p3sk{
+  position: absolute;
+  left: 803px;
+  top: 216px;
+  width: 13px;
+  height: 14px;
+  background-image: url(../img/p3mapsouthkorea.png);
+  background-size: cover;
+}
+.p3ca{
+  position: absolute;
+  left: 69px;
+  top: 203px;
+  width: 23px;
+  height: 33px;
+  background-image: url(../img/p3cal.png);
+  background-size: cover;
+}
+.p3text1{
+  position: absolute;
+  left: 678px;
+  top: 172px;
+  opacity: 0.8;
+}
+.p3text2{
+  position: absolute;
+  left: 876px;
+  top: 212px;
+  opacity: 0.8;
+}
+.japanline{
+  position: absolute;
+  left: 843px;
+  top: 222px;
+  width: 28px;
+  height: 1px;
+  background-color: #f0f0f0;
+  opacity: 0.8;
+}
+.p3catext{
+  position: absolute;
+  left: 57px;
+  top: 239px;
+  color: #019bd1;
+}
+.p3sktext{
+  position: absolute;
+  left: 775px;
+  top: 230px;
+  width: 100px;
+  color: #f46432;
+}
+.p3maintext{
+  position: absolute;
+  left: 50%;
+  margin-left: -185px;
+  top: 498px;
+  width: 370px;
+  height: 95px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.p3cim1{
+  left: 388px;
+  top: 484px;
+}
+.p3cim2{
+  left: 622px;
+  top: 464px;
+}
+.p3t1{
+  color: #f46432;
+  font-weight: 800;
+}
+.p3t2{
+  color: #019bd1;
+  font-weight: 800;
+}
+.p3t3{
+  font-weight: 800;
+}
+
+/*page4////////////////////////////////////////*/
 
 .frame1{
   position: absolute;
-  top: 1360px;
+  top: 2040px;
   left: 50%;
   margin-left: -512px;
   height: 680px;
@@ -125,7 +307,7 @@ body{
   width: 1px;
   height: 420px;
   background-color: white;
-  transform-origin: top;
+  transform-origin: bottom;
   transform: scale(1,0);
 }
 .longlinemv{
@@ -1150,6 +1332,7 @@ body{
   left: 73px;
   border-radius: 50%;
   background-color: #f0f0f0;
+
 }
 .cha0,.dot0{
   cursor: pointer;
@@ -1230,9 +1413,8 @@ body{
   left: -54px;
   width: 59px;
   height: 21px;
-  background-color: ##2d2d2d;
+  background-color: #2d2d2d;
   opacity: 0.01;
-  cursor: pointer;
 }
 
 
@@ -1253,10 +1435,14 @@ body{
   height: 4px;
   background-color: #f0f0f0;
 }
+.mdot0s{
+  top: 20px;
+}
 
 .seoul{
   left: 389px;
-  top: 125px;
+  top: 123px;
+  line-height: 13px;
 }
 
 .chuncheon{
@@ -1312,4 +1498,56 @@ body{
 .jeju{
   left: 349px;
   top: 607px;
+}
+
+
+
+.p4tb0{
+  position: absolute;
+  font-size: 12px;
+  color: #f46432;
+  line-height: 15px;
+  display: none;
+}
+.p4tb1{
+  left: 85px;
+  top: 212px;
+  width: 210px;
+}
+.p4tb2{
+  left: 85px;
+  top: 233px;
+  width: 210px;
+}
+.p4tb3{
+  left: 85px;
+  top: 296px;
+  width: 210px;
+}
+.p4tb4{
+  left: 85px;
+  top: 380px;
+  width: 210px;
+  color: #fef397;
+}
+.p4tb5{
+  left: 85px;
+  top: 528px;
+  width: 210px;
+}
+
+.resourcecheck{
+  position: absolute;
+  right: 0%;
+  bottom: 2%;
+  text-align: right;
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.lunatext{
+  color: #fef397;
+}
+.lunaback{
+  background-color: #fef397;
 }
