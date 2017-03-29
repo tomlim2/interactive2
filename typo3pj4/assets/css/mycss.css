@@ -187,7 +187,7 @@ body{
 }
 .p3sk{
   position: absolute;
-  left: 803px;
+  left: 461px;
   top: 216px;
   width: 13px;
   height: 14px;
@@ -196,8 +196,8 @@ body{
 }
 .p3ca{
   position: absolute;
-  left: 69px;
-  top: 203px;
+  left: 667px;
+  top: 204px;
   width: 23px;
   height: 33px;
   background-image: url(../img/p3cal.png);
@@ -205,34 +205,34 @@ body{
 }
 .p3text1{
   position: absolute;
-  left: 678px;
+  left: 404px;
   top: 172px;
   opacity: 0.8;
 }
 .p3text2{
   position: absolute;
-  left: 876px;
+  left: 520px;
   top: 212px;
   opacity: 0.8;
 }
 .japanline{
   position: absolute;
-  left: 843px;
+  left: 497px;
   top: 222px;
-  width: 28px;
+  width: 18px;
   height: 1px;
   background-color: #f0f0f0;
   opacity: 0.8;
 }
 .p3catext{
   position: absolute;
-  left: 57px;
+  left: 654px;
   top: 239px;
-  color: #019bd1;
+  color: #118eae;
 }
 .p3sktext{
   position: absolute;
-  left: 775px;
+  left: 430px;
   top: 230px;
   width: 100px;
   color: #f46432;
@@ -263,7 +263,7 @@ body{
   font-weight: 800;
 }
 .p3t2{
-  color: #019bd1;
+  color: #118eae;
   font-weight: 800;
 }
 .p3t3{
