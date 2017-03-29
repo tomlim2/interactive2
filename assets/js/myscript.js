@@ -15,6 +15,10 @@ $(document).ready(function() {
     $(".nodp2").toggleClass('tlc2');
     $(".tlc1").toggleClass('nodp1');
   });
+  $("#ex3").hover(function(){
+    $(".ex3").toggleClass('tlc3');
+    $(".tlc1").toggleClass('nodp1');
+  });
   $("#pre1").hover(function(){
     $(".nodp3").toggleClass('tlc3');
     $(".tlc1").toggleClass('nodp1');
