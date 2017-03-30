@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	font-family: 'Raleway', sans-serif;
+}
+
+.canvas {
+	width: 96vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: white;
+	position: relative;
+	padding: 20px;
+}
+
+#transform1:hover{
+	color: red;
+	cursor: pointer;
+	font-size: 40px;
+}
+#transform1{
+	transition: all 3s ease-in-out;
+}
+
+#transform2:hover ~ #transform2, #transform2:hover {
+	color: blue;
+	cursor: pointer;
+	opacity: 0;
+}
+#transform2{
+	transition: all 1s ease-in-out;
+	opacity: 1;
+}
+
+
+#transform3:hover ~ #transform3, #transform3:hover {
+	opacity: 1;
+	color: red;
+}
+
+#transform3{
+	opacity: 0;
+	transition: all 1s ease-in-out;
+}
+.robotimg:hover{
+	transform: translate(120px, 20px)scale(2,2) rotate(720deg);
+	animation-play-state: paused;
+
+}
+.robotimg{
+	position: relative;
+	float: left;
+	margin: 40px;
+	width: 532px;
+	height: 300px;
+	background-image: url("img01.jpg");
+	background-position: center;
+	background-size: cover;
+	transition: all 0.6s ease-in-out;
+	animation: bouncing 10s infinite;
+}
+@keyframes bouncing {
+0%{
+	left: -20px;
+	top: -20px;
+}
+5%{
+	left: 20px;
+	top: -20px;
+}
+10%{
+	left: 20px;
+	top: 20px;
+}
+15%{
+	left: -20px;
+	top: 20px;
+}
+20%{
+	left: -20px;
+	top: -20px;
+}
+100%{
+	left: -20px;
+	top: -20px;
+}
+}
