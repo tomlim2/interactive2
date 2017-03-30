@@ -46,8 +46,10 @@ body {
 	transition: all 1s ease-in-out;
 }
 .robotimg:hover{
-	transform: translate(120px, 20px)scale(2,2) rotate(720deg);
+	transform: translate(0px, 30px)scale(1.2,1.2) rotate(720deg);
 	animation-play-state: paused;
+	width: 1064px;
+	height: 600px;
 
 }
 .robotimg{
