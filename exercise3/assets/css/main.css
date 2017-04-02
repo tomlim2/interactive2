@@ -28,7 +28,6 @@ body {
 #transform2:hover ~ #transform2, #transform2:hover {
 	color: blue;
 	cursor: pointer;
-	opacity: 0;
 }
 #transform2{
 	transition: all 1s ease-in-out;

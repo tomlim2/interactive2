@@ -13,6 +13,14 @@
   transform-origin: center;
   z-index: 3;
 }
+.sf1click{
+  position: absolute;
+  top: -10px;
+  width: 90px;
+  height: 74px;
+  border-radius: 30%;
+}
+
 
 .spfa00mv{
   animation: spfa00prss 4s linear infinite;
