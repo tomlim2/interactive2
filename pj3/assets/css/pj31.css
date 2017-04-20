@@ -1,0 +1,350 @@
+body {
+  color: #172140;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  background-color: #f1f1f1;
+  color: #183432;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.container0{
+  /*height: 100%;
+  overflow-y: hidden;*/
+}
+
+.maincav01{
+  position: relative;
+  left: 0px;
+  width: 8000px;
+  height: 768px;
+}
+.bg0{
+  position: absolute;
+  width: 6000px;
+  height: 768px;
+  background-image: url(../img/bg0.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.oimg00{
+  /*filter: blur(2px);*/
+
+}
+
+.oimg00:hover{
+  /*filter: blur(2px);*/
+}
+
+.oimg01:hover{
+}
+.oimg01{
+  position: absolute;
+  left: 100px;
+  width: 1000px;
+  height: 978px;
+  background-image: url(../img/test3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.oimg01mv{
+  position: absolute;
+  top: 2502px;
+}
+
+
+
+.oimg02:hover{
+}
+
+.oimg02{
+  position: absolute;
+  top: -30px;
+  left: 500px;
+  margin-left: -840px;
+  width: 1505px;
+  height: 1770px;
+  background-image: url(../img/test4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.oimg02mv{
+  position: absolute;
+  top: 822px;
+}
+
+.oimg03:hover{
+}
+.oimg03{
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  width: 856px;
+  height: 720px;
+  background-image: url(../img/test5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 4;
+}
+.oimg03mv{
+  position: absolute;
+  top: 530px;
+}
+
+
+.oimg04:hover{
+
+}
+
+.oimg04{
+  position: absolute;
+  left: 100px;
+  top: 53%;
+  margin-top: -330px;
+  width: 1088px;
+  height: 542px;
+  background-image: url(../img/test6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 6;
+}
+.sfmomatxt{
+  position: relative;
+  top: -20px;
+  text-align: center;
+  /*color: #f1f1f1;*/
+  font-size: 1.4em;
+}
+.sfmomalogo{
+  position: absolute;
+  width: 340px;
+  height: 180px;
+  top: 220px;
+  left: 350px;
+  background-image: url(../img/sfmomalogo2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logoclick{
+  position: absolute;
+  width: 340px;
+  height: 180px;
+  top: 220px;
+  left: 350px;
+  z-index: 20;
+}
+
+.mnbttn1{
+  display: none;
+}
+
+.mnbttn2{
+  /*display: none;*/
+}
+
+.mnbttn3{
+  /*display: none;*/
+}
+
+.mnbttn4{
+
+}
+
+.mtxt1{
+  position: fixed;
+  left: 50%;
+  margin-left: -400px;
+  top: 225px;
+  width: 800px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.title01{
+  font-size: 2.4em;
+  font-weight: 600;
+}
+
+.cbttn01{
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  margin-left: -112px;
+  top: 380px;
+  cursor: pointer;
+}
+
+.cbbtnimg01{
+  position: absolute;
+  background-image: url(../img/bttn_02.png);
+  background-position: top;
+  background-size: cover;
+  width: 224px;
+  height: 118px;
+}
+.cbbtnimgmv01{
+  animation: cbbtnimgprss 20s infinite linear;
+}
+@keyframes cbbtnimgprss {
+  0%{
+    transform: rotateY(20deg);
+  }
+  50%{
+    transform: rotateY(-20deg);
+  }
+  100%{
+    transform: rotateY(20deg);
+  }
+}
+.cbbtntxt01{
+  position: absolute;
+  top: 35px;
+  left: 70px;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.part2box .box2{
+  position: absolute;
+  left: 290px;
+  top: 100px;
+}
+.post1 .postimg {
+  background-image: url(../img/img_001_2.jpg);
+  background-position: top;
+  background-size: cover;
+  width: 500px;
+  height: 270px;
+}
+.post1 .info{
+  line-height: 1.4em;
+}
+h3{
+  font-size: 0.9em;
+  margin-bottom: -0.5em;
+  opacity: 0.8;
+}
+h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h1{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+.txtbox .info{
+
+}
+
+.part2box{
+  position: absolute;
+  left: 5000px;
+  width: 1000px;
+  height: 768px;
+  /*background-color: red;*/
+}
+
+.part3box{
+  position: absolute;
+  left: 1900px;
+  width: 3300px;
+  height: 768px;
+  /*background-color: red;*/
+}
+
+.part3box .tl{
+  position: absolute;
+  top: 90px;
+}
+
+.cbbtnimg031{
+  position: absolute;
+  left: 256px;
+  top: 100px;
+  background-image: url(../img/img_001.jpg);
+  background-position: bottom;
+  background-size: cover;
+  width: 680px;
+  height: 480px;
+
+
+}
+.cbbtnimg032{
+  position: absolute;
+  left: 1020px;
+  top: 100px;
+  background-image: url(../img/img_002.jpg);
+  background-position: bottom;
+  background-size: cover;
+  width: 584px;
+  height: 480px;
+}
+#works #info{
+  position: absolute;
+  top: 480px;
+}
+.cbbtnimg033{
+  position: absolute;
+  left: 1690px;
+  top: 100px;
+  background-image: url(../img/img_003.jpg);
+  background-position: bottom;
+  background-size: cover;
+  width: 440px;
+  height: 480px;
+}
+.cbbtnimg034{
+  position: absolute;
+  left: 2210px;
+  top: 100px;
+  background-image: url(../img/img_004.jpg);
+  background-position: bottom;
+  background-size: cover;
+  width: 460px;
+  height: 480px;
+}
+
+.mtxt3{
+  position: fixed;
+  left: 550px;
+  top: 165px;
+  width: 480px;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.cbbtnimg04{
+  position: fixed;
+  left: 256px;
+  top: 174px;
+  background-image: url(../img/aboutimg.jpg);
+  background-position: bottom;
+  background-size: cover;
+  width: 270px;
+  height: 360px;
+}
+.cbbtnimg04 .tl{
+  position: absolute;
+  top: -80px;
+}
+.mtxt4{
+  position: fixed;
+  left: 550px;
+  top: 235px;
+  width: 480px;
+  text-align: left;
+  font-size: 0.9em;
+}
