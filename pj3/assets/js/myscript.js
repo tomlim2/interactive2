@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     var scrlll1= 5600;
     $(window).scroll(function(){
       var num=$(window).scrollLeft();
@@ -45,7 +44,7 @@ $(document).ready(function() {
 
       var oimg021 = 0;
       var oimg022 = 1400;
-      var oimg023 = 4600;
+      var oimg023 = 4800;
       $(window).scroll(function(){
           var scrollPX = $(this).scrollLeft();
           if( scrollPX > oimg021 ) {
@@ -97,7 +96,6 @@ $(document).ready(function() {
 
 
 
-  //
   // var max = 1000; //100% 투명할때의 스크롤 값
   // $(window).scroll(function(){
   //     var scrollPX = $(this).scrollTop();
