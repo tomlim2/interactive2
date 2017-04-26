@@ -1,16 +1,28 @@
 $(document).ready(function() {
 
-    var scrlll1= 5600;
+    var scrlll1= 6130;
     $(window).scroll(function(){
       var num=$(window).scrollLeft();
         if(num>scrlll1){
-          $(".mnbttn1").addClass("appear");
+          $(".mtxt1").addClass("appear");
         }else{
-          $(".mnbttn1").removeClass("appear");
+          $(".mtxt1").removeClass("appear");
         }
       });
 
-      var scrlll41= 1230;
+      var scrlll12= 6130;
+      $(window).scroll(function(){
+        var num=$(window).scrollLeft();
+          if(num>scrlll12){
+            $(".cbttn01").addClass("appear");
+          }else{
+            $(".cbttn01").removeClass("appear");
+          }
+        });
+
+
+
+      var scrlll41= 1200;
       $(window).scroll(function(){
         var num=$(window).scrollLeft();
           if(num>scrlll41){
@@ -33,29 +45,43 @@ $(document).ready(function() {
       // patels----------------------
 
       var oimg011 = 0;
+      var oimg012 = 4580;
       $(window).scroll(function(){
           var scrollPX = $(this).scrollLeft();
           if( scrollPX > oimg011 ) {
-              $(".oimg01").css({"left": Math.min(scrollPX*4 + 100, 6000) + "px"});
+              $(".oimg01").css({"left": Math.min(scrollPX*4 + 100, 5500) + "px"});
+                if( scrollPX > oimg012 ) {
+                $(".oimg01").css({"left": Math.min(5500 + (scrollPX - oimg012)*1.3, 6500) + "px"});
+              }
           }else{
               $(".oimg01").css({"left": 100 + "px"});
           }
       });
 
+      var mtxt3ps = 1400;
+      $(window).scroll(function(){
+          var scrollPX = $(this).scrollLeft();
+          if( scrollPX > mtxt3ps ) {
+              $(".mtxt3").css({"left": Math.min((scrollPX-mtxt3ps)*0.8 + -130, 80) + "px"});
+          }else{
+              $(".mtxt3").css({"left": -130 + "px"});
+          }
+      });
+
       var oimg021 = 0;
-      var oimg022 = 1400;
-      var oimg023 = 4800;
+      var oimg022 = 1800;
+      var oimg023 = 4600;
       $(window).scroll(function(){
           var scrollPX = $(this).scrollLeft();
           if( scrollPX > oimg021 ) {
-              $(".oimg02").css({"left": Math.min(scrollPX*3 + 500, oimg023) + "px"});
+              $(".oimg02").css({"left": Math.min(scrollPX*3 + 500, 5190) + "px"});
               //
               // if( scrollPX > oimg022 ) {
               //     $(".oimg02").css({"left": Math.min(oimg022 + (scrollPX - oimg022)*3, oimg023) + "px"});
               // }
 
               if( scrollPX > oimg023 ) {
-                  $(".oimg02").css({"left": Math.max(oimg023 - (scrollPX - oimg023)*0.8, 4000) + "px"});
+                  $(".oimg02").css({"left": Math.max(5190 - (scrollPX - oimg023)*0.8, 4600) + "px"});
               }
           }else{
               $(".oimg02").css({"left": 500 + "px"});
@@ -70,7 +96,7 @@ $(document).ready(function() {
               $(".oimg03").css({"left": Math.min(scrollPX*5 + 100, oimg032) + "px"});
 
               if( scrollPX > oimg032 ) {
-                  $(".oimg03").css({"left": Math.max(oimg032 - (scrollPX - oimg032), 800) + "px"});
+                  $(".oimg03").css({"left": Math.max(oimg032 - (scrollPX - oimg032), 1100) + "px"});
               }
 
           }else{

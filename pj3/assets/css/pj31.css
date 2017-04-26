@@ -15,12 +15,12 @@ body {
 .maincav01{
   position: relative;
   left: 0px;
-  width: 8000px;
+  width: 8600px;
   height: 768px;
 }
 .bg0{
   position: absolute;
-  width: 6000px;
+  width: 6600px;
   height: 768px;
   background-image: url(../img/bg0.png);
   background-position: center;
@@ -138,7 +138,7 @@ body {
 }
 
 .mnbttn1{
-  display: none;
+
 }
 
 .mnbttn2{
@@ -156,19 +156,21 @@ body {
 .mtxt1{
   position: fixed;
   left: 50%;
-  margin-left: -230px;
-  top: 245px;
+  margin-left: -400px;
+  top: 215px;
   width: 800px;
-  /*text-align: center;*/
+  display: none;
+  text-align: center;
 }
 
 .cbttn01{
   position: fixed;
   z-index: 1;
   left: 50%;
-  margin-left: 60px;
-  top: 270px;
+  margin-left: -110px;
+  top: 350px;
   cursor: pointer;
+  display: none;
 }
 
 .cbbtnimg01{
@@ -204,15 +206,19 @@ body {
 
 .part2box .box2{
   position: absolute;
-  left: 290px;
-  top: 150px;
+  left: 240px;
+  top: 100px;
 }
 .post1 .postimg {
   background-image: url(../img/img_001_2.jpg);
   background-position: top;
   background-size: cover;
-  width: 500px;
-  height: 270px;
+  width: 630px;
+  height: 380px;
+
+}
+.postimg{
+  /*opacity: 0;*/
 }
 
 h3{
@@ -231,12 +237,13 @@ h1{
   font-size: 1.8em;
   font-weight: 600;
 }
-.txtbox .info{
+.info{
+  line-height: 1.5em
 }
 
 .part2box{
   position: absolute;
-  left: 5000px;
+  left: 5400px;
   width: 1000px;
   height: 768px;
 }
@@ -255,7 +262,7 @@ h1{
 
 .cbbtnimg031{
   position: absolute;
-  left: 600px;
+  left: 680px;
   top: 100px;
   background-image: url(../img/img_001.jpg);
   background-position: bottom;
@@ -267,7 +274,7 @@ h1{
 }
 .cbbtnimg032{
   position: absolute;
-  left: 1320px;
+  left: 1500px;
   top: 100px;
   background-image: url(../img/img_002.jpg);
   background-position: bottom;
@@ -282,7 +289,7 @@ h1{
 }
 .cbbtnimg033{
   position: absolute;
-  left: 1940px;
+  left: 2230px;
   top: 100px;
   background-image: url(../img/img_003.jpg);
   background-position: bottom;
@@ -292,7 +299,7 @@ h1{
 }
 .cbbtnimg034{
   position: absolute;
-  left: 2420px;
+  left: 2820px;
   top: 100px;
   background-image: url(../img/img_004.jpg);
   background-position: bottom;
@@ -303,7 +310,7 @@ h1{
 
 .mtxt3{
   position: absolute;
-  left: 70px;
+  /*left: 70px;*/
   top: 230px;
   width: 480px;
   text-align: left;
