@@ -117,6 +117,8 @@ body {
   background-repeat: no-repeat;
   z-index: 6;
 }
+
+
 .sfmomalogo{
   position: absolute;
   width: 340px;
@@ -128,6 +130,22 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
+.logocover {
+  position: absolute;
+  left: 280px;
+  top: 200px;
+  width: 0;
+  height: 0;
+  transform: rotate(38deg);
+  border-style: solid;
+  border-width: 105px 0px 415px 900px;
+  border-color: transparent transparent transparent transparent;
+  z-index: 30;
+  /* triangle generator: http://apps.eky.hk/css-triangle-generator/ */
+}
+
 .logoclick{
   position: absolute;
   width: 340px;
@@ -157,7 +175,7 @@ body {
   position: fixed;
   left: 50%;
   margin-left: -400px;
-  top: 215px;
+  top: 220px;
   width: 800px;
   display: none;
   text-align: center;
@@ -168,7 +186,7 @@ body {
   z-index: 1;
   left: 50%;
   margin-left: -110px;
-  top: 350px;
+  top: 355px;
   cursor: pointer;
   display: none;
 }

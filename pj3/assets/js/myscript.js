@@ -114,6 +114,15 @@ $(document).ready(function() {
               $(".oimg04").css({"left": 100 + "px"});
           }
       });
+      var cover = 0;
+      $(window).scroll(function(){
+          var scrollPX = $(this).scrollLeft();
+          if( scrollPX > cover ) {
+              $(".logocover").css({"left": Math.max(-scrollPX*2 + 280, -420) + "px"});
+          }else{
+              $(".logocover").css({"left": 280 + "px"});
+          }
+      });
 
 
 
