@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang = "en">
+
+			<head>
+				<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+						<title> Where is CCA</title>
+ 						<style>
+						body{
+							font-family: 'Source Sans Pro', sans-serif;
+							/*background-color: #096e78;*/
+
+						}
+						.nav{
+							position: absolute;
+							left: 297px;
+							top: 220px;;
+							font-weight: 700;
+							font-size: 2.3em;
+							z-index: 10;
+						}
+						.footer0{
+							padding: 10px;
+							/*width: 200px;*/
+							position: fixed;
+							right: 2%;
+							bottom: 2%;
+							font-weight: 600;
+							z-index: 10;
+							background-color: white;
+							font-size: 0.9em;
+						}
+
+						a{
+							color: black;
+			        /*text-transform: uppercase;*/
+							text-decoration: none;
+						}
+						a:hover{
+				      color: #15a198;
+							font-style: italic;
+				    }
+
+						h1 {
+							margin-left: 40px;
+							font-weight: 900;
+							font-size: 3em;
+							color: #4daca1;
+						}
+						h2 {
+							margin-left: 40px;
+							font-weight: 700;
+							font-size: 1.8em;
+							color: #4daca1;
+							/*border-bottom: 1px solid #096e78;*/
+						}
+
+						.title h2 {
+							margin-left: 40px;
+							margin-bottom: -20px;
+							opacity: 0.4;
+							font-weight: 300;
+							font-size: 1.8em;
+							color: #4daca1;
+							/*border-bottom: 1px solid #096e78;*/
+						}
+						h3 {
+							/*margin-left: -40px;*/
+							margin-bottom: 0.4em;
+							font-weight: 900;
+
+							font-size: 1.2em;
+							/*color: #096e78;*/
+							text-transform: uppercase;
+						}
+						#keywords{
+							color: #b34b35;
+							font-weight: 700;
+						}
+						.section{
+							border-left: solid 1px #4daca1;
+							padding-left: 40px;
+							padding-right: 40px;
+						}
+						#caption {
+							position: relative;
+							margin-bottom: 0.8em;
+							/*font-size: 0.9em;*/
+							opacity: 0.8;
+							/*font-weight: 900;*/
+							font-style: italic;
+							color: #4daca1;
+						}
+						.img0{
+
+							position: relative;
+
+							width: 764px;
+							height: 500px;
+							margin-top: 1.4em;
+
+							background-position: center;
+							background-size: cover;
+							/*border: 1px solid gray;*/
+						}
+						.img01{
+							position: relative;
+							/*margin-top: 1.4em;*/
+							background-position: center;
+							background-size: cover;
+						}
+						.stage{
+							height: 460px;
+							overflow: hidden;
+						}
+						.img1{
+							background-image: url("img1_1.jpg");
+							/*border-top: solid 1px #72c1c8;
+							border-bottom: solid 1px #72c1c8;*/
+						}
+						.img2{
+							background-image: url("img2.jpg");
+							/*border-top: solid 1px #72c1c8;
+							border-bottom: solid 1px #72c1c8;*/
+							height: 330px;
+							z-index: 2;
+						}
+						.img3{
+							position: absolute;
+							top: -50px;
+							background-image: url("img3.png");
+							height: 460px;
+							border: 0px;
+							transition: all 0.2s;
+						}
+
+
+						.img2:hover .sub2{
+							opacity: 1;
+						}
+						.img2:hover .caption2{
+							opacity: 1;
+						}
+
+						.sub2{
+							opacity: 0;
+							position: absolute;
+
+						}
+						.img21{
+							left: -270px;
+							top: -50px;
+							background-image: url("img2_1.jpg");
+							width: 510px;
+							height: 390px;
+
+
+							transition: all 0.2s 0.2s;
+						}
+						.img22{
+
+							left: 540px;
+							top: -70px;
+							background-image: url("img2_2.jpg");
+							width: 460px;
+							height: 300px;
+
+							transition: all 0.2s 0.4s;
+						}
+						.img23{
+
+							left: -20px;
+							top: -106px;
+							background-image: url("img2_3.jpg");
+							width: 470px;
+							height: 280px;
+
+							transition: all 0.2s 0.5s;
+						}
+						.img24{
+
+							left: 660px;
+							top: 50px;
+							background-image: url("img2_4.jpg");
+							width: 160px;
+							height: 290px;
+
+							transition: all 0.2s 0.6s;
+						}
+						.img25{
+
+							left: 260px;
+							top: 20px;
+							background-image: url("img2_5.jpg");
+							width: 400px;
+							height: 320px;
+
+							transition: all 0.2s 0.7s;
+						}
+						.img26{
+							left: -100px;
+							top: 40px;
+							background-image: url("img2_6.jpg");
+							width: 580px;
+							height: 300px;
+
+							transition: all 0.2s 0.8s;
+						}
+
+						.img27{
+							left: 260px;
+							top: -40px;
+							background-image: url("img2_7.jpg");
+							width: 580px;
+							height: 300px;
+
+							transition: all 0.2s 0.9s;
+						}
+
+						.caption2{
+							position: relative;
+							text-align: center;
+							top: 140px;
+							opacity: 0;
+							color: white;
+							background-color: #4daca1;
+
+							transition: all	0.4s 1s;
+						}
+
+						.img3:hover{
+							/*transform: scale(1.5,1.5);*/
+						}
+						.img4{
+							background-image: url("img4.jpg");
+							height: 399px;
+						}
+
+						.img5a{
+							background-image: url("img5a.jpg");
+							height: 320px;
+						}
+						.stage0{
+							/*height: 500px;*/
+							position: absolute;
+							left: 390px;
+							top: -100px;
+							width: 340px;
+							height: 0px;
+							overflow: hidden;
+
+							transition: all 0.6s;
+						}
+						.img5{
+							background-image: url("img5.jpg");
+							height: 280px;
+						}
+						.img51{
+							opacity: 1;
+							background-image: url("img5_1.jpg");
+							width: 340px;
+							height: 500px;
+
+							z-index: 2;
+						}
+						.img5:hover .stage0{
+
+							height: 500px;
+						}
+
+
+						.box1{
+							margin: 20px;
+						}
+						.box2{
+							padding-left: 200px;
+							padding-right: 200px;
+							padding-top: 20px;
+							padding-bottom: 50px;
+							background-color: white;
+							margin: 50px;
+							line-height: 1.6em;
+							font-size: 1.3em;
+						}
+						.prss1{
+							background-image: url("prss1.jpg");
+							height: 270px;
+						}
+						.prss2{
+							background-image: url("prss2.jpg");
+							height: 450px;
+						}
+						.prss3{
+							background-image: url("prss3.jpg");
+							height: 550px;
+						}
+						.prss4{
+							background-image: url("prss4.jpg");
+							height: 600px;
+						}
+						.prss5{
+							background-image: url("prss5.jpg");
+							height: 580px;
+						}
+						.prss6{
+							background-image: url("prss6.png");
+
+							max-width: 400px;
+							height: 310px;
+							margin-left: 170px;
+						}
+						.prss7{
+							background-image: url("prss7.jpg");
+							height: 470px;
+						}
+						.prss8{
+							background-image: url("prss8.jpg");
+							height: 470px;
+						}
+						.prss9{
+							background-image: url("prss9.jpg");
+							height: 860px;
+						}
+						.prss10{
+							background-image: url("prss10.jpg");
+							max-width: 300px;
+							margin-left: 230px;
+						}
+ 						</style>
+			</head>
+
+			<body>
+				<div class="nav">
+					<a href="#">Intro</a> | <a href="#">Process</a>
+				</div>
+
+				<div class="footer0">
+					Younsoo Lim(Tom) | typography3 | project4 case study | 2017spring
+				</div>
+				<div class="box2">
+					<div class="title">
+						<h2>Project</h2> <h1>Where is CCA</h1>
+					</div>
+
+					<br><br>
+					<h2>Intro</h2>
+					<div class="section">
+
+						<h3>Overall</h3>
+
+						<div class="img0 img1"></div>
+						<div id="caption">
+							I got admission:)
+						</div>
+
+						After excited feeling of admission I felt panic.
+						I had to prepare my new life in CCA.
+
+						This is my first time to go aborad and live.
+						I visited America once when I was ten years old around.
+						I did not know where is San Francisco and Oakland.
+						I was going to live in dorm on Webster in Oakland where I never heard before.
+						I did not know resturant and what usually people in America eat.
+						How to open bank and cell-phone.
+						<br><br>
+
+						<div class="img0 img2">
+							<div class="img0 sub2 img21"></div>
+							<div class="img0 sub2 img22"></div>
+							<div class="img0 sub2 img23"></div>
+							<div class="img0 sub2 img24"></div>
+							<div class="img0 sub2 img25"></div>
+							<div class="img0 sub2 img26"></div>
+							<div class="img0 sub2 img27"></div>
+							<div class="caption2">
+								Even it was difficult to find a "right" question
+							</div>
+						</div>
+						<div id="caption">
+							It was hard to find a "right" question
+						</div>
+
+						To solve these problem, I used Google.
+						Taking a long time, I organized informations for new life in CCA.
+
+
+						Also I made a plan to stay, but every plan was messed up
+						becuase I did not expect getting cell-phone chip.
+
+						<br>
+						<div class="img0 stage">
+							<div class="img0 img3">
+
+							</div>
+						</div>
+						<div id="caption">
+							I did not expect the important of cell-phone!
+						</div>
+
+						Google-map, and Uber was not working. Also, I did not know where
+						to eat, where to buy furniture. All I did on three days was staying
+						in Webster-hall dorm in Oakland until international student orientation.
+						<br><br>
+
+						<div class="img0 img4"></div>
+						<div id="caption">
+							Information what CCA had was much better than Googling...
+						</div>
+
+						I got valuable information from the orientation, and met other students every
+						problems I had were solved.
+						<br><br>
+						Occasionally, I remind that three days when was literally nightmare.
+					</div>
+
+					<br><br><br>
+
+					<div class="section">
+						<h3>Main Audiences  of Where is CCA</h3>
+						<span id="keywords">International prospective students</span>
+						who are in between admitted and orientation week period
+
+					</div>
+
+					<br><br><br>
+
+					<div class="section">
+						<h3>Purpose</h3>
+
+						<span id="keywords">Helping international students</span> adjust in San Francisco and Oakland
+						by Filling information gap between admission date and orientation week
+					</div>
+
+					<br><br><br>
+
+					<div class="section">
+
+						<h3>Solution</h3>
+						<strong>Step1.</strong> <span id="keywords">Building website or Section inside CCA website</span> with helpful information for international prospective students
+
+						<div class="img0 img5a"></div>
+						<div id="caption">
+							The website or the section should be full with information for adjusting
+						</div>
+						<div class="section">
+							<h3>Reforming Information in international orientation into online</h3>
+							ISAP already has gathering a great information to help international students
+							adjusting here. I would help international students put presentation for international orientation, my life saver for adjusting here
+							onto web.
+							In the orientation, ISAP gave a lot of vulable information from how do I count
+							coins to how to get cell-phone chip.
+							Also, each information was helpful then I found through Google. Why?
+
+
+						</div>
+						<div class="section">
+							<h3>First Helper</h3>
+							First helper is a system for helping international students with
+							their mother tongue.
+							This concept is already existed naming Penpal program in CCA.
+							It would be a great solution for me who was for the first time staying America.
+							However, image of naming Penpal is not
+							familiar, and lack of advertising. Stereotype of term-penpal is handwriting and
+							waiting reply for a long time. It is difficult with function helping international students.
+							Hence, I changed the naming
+							into First Helper, and I am going to introduce this with webstie. Function is same as before.
+							<br><br>
+						</div>
+						<br>
+						<strong>Step2.</strong> <span id="keywords">Sending the link</span> with congratulation e-mail from
+						<br>
+						<div class="img0 img5">
+							<div class="img0 stage0">
+								<div class="img01 img51"></div>
+							</div>
+						</div>
+						<div id="caption">
+							It will be helpful!
+						</div>
+
+					</div>
+
+
+					<br><br>
+
+					<h2>Process</h2>
+					<div class="section">
+						<div class="img0 prss6"></div>
+						<div id="caption">
+							Thinking process; Sorting Valuable information from others
+						</div>
+						<div class="img0 prss1"></div>
+						<div id="caption">
+							My direction
+						</div>
+						<div class="img0 prss2"></div>
+						<div id="caption">
+							Starting from me. How do I access my CCA e-mail? What is G-mail? Where is Subway or Bus Sation?
+						</div>
+
+						<div class="img0 prss3"></div>
+						<div id="caption">
+							Interviewing other internation students by myself, and I found there
+							are already a lot of helpful solution for helping adjust.
+						</div>
+						<div class="img0 prss4"></div>
+						<div id="caption">
+							Emotion, feel, and mood
+						</div>
+						<div class="img0 prss5"></div>
+						<div id="caption">
+							Wait... I saw this information in international orientation...
+						</div>
+						<div class="img0 prss7"></div>
+						<div id="caption">
+							Keep going. Sorting every information by location
+						</div>
+						<div class="img0 prss8"></div>
+						<div id="caption">
+							I found CCA has change their branding
+						</div>
+						<div class="img0 prss9"></div>
+						<div id="caption">
+							Looks good! Cool!
+						</div>
+						<div class="img0 prss10"></div>
+						<div id="caption">
+							But, I did not want one of them...
+						</div>
+					</div>
+
+
+
+				</div>
+
+
+
+			</body>
+
+</html>
