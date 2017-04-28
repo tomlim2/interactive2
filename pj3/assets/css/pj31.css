@@ -32,6 +32,7 @@ body {
 
 .oimg00{
   /*filter: blur(2px);*/
+  background-repeat: no-repeat;
 
 }
 
